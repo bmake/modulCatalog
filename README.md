@@ -174,6 +174,9 @@ Abschließend muss die PDF noch gespeichert werden, dies sollte mit einem Link o
 
 ```
 
+## Installation
+
+Jekyll-RDF ist die Voraussetzung für dieses Projekt. Um Jekyll-RDF zu installieren und das Projekt zu starten, bitte [das Tutorium](https://github.com/white-gecko/JekyllRDF-Tutorial) für Jekyll-RDF referenzieren.
 
 
 
