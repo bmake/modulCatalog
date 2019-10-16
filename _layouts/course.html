@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Template für Module">
+    <meta name="author" content="Team1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Modulkatalog - Technische Hochschule Brandenburg</title>
+
+    <!-- Bootstrap  CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawesome Icons -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Schriftarten für das Template -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- CSS für dieses Template -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js">
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/2.0.37/jspdf.plugin.autotable.js">
+</script>
+
+   <script type="text/javascript">
+
+//export modulkatalog zu excel
+// function generateExcel() {
+   
+ //  var data_type = 'data:application/vnd.ms-excel';
+ //  var table_div = document.getElementById('modulkatalog');
+ //  var table_html = table_div.outerHTML.replace(/ /g, '%20');
+
+ //  var a = document.createElement('a');
+ //  a.href = data_type + ', ' + table_html;
+ //  a.download = 'Modulkatalog.xls';
+ //  a.click();
+//} 
+
+
+//export Modulkatalog als PDF
+function generatePDF() {
+    
+    
+    var doc = new jsPDF('p', 'pt', 'a4');
+    
+  var elem = document.getElementById('modulkatalog');  
+  var data = doc.autoTableHtmlToJson(elem);
+  
+  var body = JSON.stringify(data).replace(/\\t+/g, '');
+  
+  body = body.replace(/(\\n\s+)+/g, '\\n');
+
+  body = body.replace(/(\\n)+/g, '\\n');
+ 
+  body = JSON.parse(body);
+ 
+  var array = body.rows;
+
+
+  var arrayRow = new Array();
+  for (var i in array) {
+    
+    if (array[i][0] == "Aufteilung in Lehrveranstaltungen" || array[i][0] == "Studien-/Prüfungsleistungen" || array[i][0] == "Lernergebnisse" || array[i][0] == "Inhalte" || array[i][0] == "Lehr- und Lernmethoden") {
+        array[i][1] = " \u2022 " + array[i][1].replace(/\n+/g, "\n \u2022 ");
+        arrayRow.push(array[i]);
+        
+    } else if (array[i][0] == "Lehrsprache") {
+        
+        array[i][1] = array[i][1].replace(/\n+/g, " ");
+        arrayRow.push(array[i]);
+        
+    } else if (array[i][0] == "Gesamtworkload und ihre Zusammensetzung") {
+        
+        array[i][1] = array[i][1].replace(/Gesamt:\s\s+/g, "Gesamt: ").replace(/\n+/g, "\n \u2022 ");
+        arrayRow.push(array[i]);
+        
+    } else if (array[i][0] == "Literatur") {
+        
+        array[i][1] = " \u2022 " + array[i][1].replace(/\n+/g, "\n \u2022 ").replace(/:/g, ": \n");
+        arrayRow.push(array[i]);
+        
+    } else {
+        
+        arrayRow.push(array[i]);
+        
+    }
+    
+  }
+  
+ doc.autoTable(body.columns, array, {
+
+    headerStyles: {
+            fillColor: [241, 132, 0],
+           },
+    margin: {left: 35},
+    theme: 'grid',
+    tableWidth: 'auto',
+    fontSize: 8,
+    overflow: 'linebreak',
+    }
+
+            
+  ); 
+    
+  doc.save('Modulkatalog.pdf');
+}
+
+
+ </script>
+
+ <script type="text/javascript">
+
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
+ </script>
+
+</head>
+
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="http://univera.de/FHB/EKGI_ModCat/">Modulkatalog THB</a>
+        </div>
+    </nav>
+    <br><br>
+    <br><br>
+    <br><br>
+
+    <section id="module">
+        <div class="container">
+            <h4 class="text-center text-uppercase text-secondary mb-0">Wirtschaftsinformatik B.Sc.</h4>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h5>Informationen zum Modul:</h5>
+                   <!-- <button onclick="generateExcel()">Export als Excel</button>-->
+<button class="btn btn-secondary" onclick="generatePDF()">Export als PDF</button>
+<table class="table" id="modulkatalog">
+
+                        <tr>
+        <th>Modul-Kennzeichen</th><td>
+        {% assign tests = page.rdf | rdf_property: '<https://schema.org/courseCode>', nil, true %}
+
+        {% for res in tests %}
+        {{res}}<br />
+        {% endfor %}
+    </td></tr>
+
+    <tr>
+        <th>Modulbezeichnung</th><td>
+        {{ page.rdf | rdf_property: '<https://schema.org/name>','en'}} (English)</br>
+        {{ page.rdf | rdf_property: '<https://schema.org/name>','de'}} (Deutsch)
+    </td></tr>
+
+    <tr>
+        <th>Aufteilung in Lehrveranstaltungen</th><ul><td>
+        {% assign tests = page.rdf | rdf_property: '<https://schema.org/learningResourceType>', nil, true %}
+
+        {% for res in tests %}
+        <li> {{res}}<br /></li>
+       {% endfor %}
+    </td></ul></tr>
+
+    <tr>
+        <th>Dauer des Moduls</th>
+        <td>
+            {% capture duration_query %}
+            SELECT DISTINCT ?duration WHERE {
+        ?resourceUri <https://schema.org/hasCourseInstance> ?courseinstance.
+        ?courseinstance a <https://schema.org/CourseInstance>;
+        <https://schema.org/duration> ?duration.
+        }
+            {% endcapture %}
+            {% assign listelements = page.rdf | sparql_query: duration_query %}
+            {% for result in listelements %}
+            {% assign n = result.duration | size %}
+            {% assign n = n | minus: 4 %}
+			{% assign n = result.duration | slice: n, 3 %}
+			{% assign n = n | times: 2 %}
+			{{ n | round }} Semester<br />
+            {% endfor %}
+            
+        </td></tr>
+
+    <tr>
+        <th>Zuordnung zum Curriculum</th><td>
+            
+                {% capture modultyp_query %}
+                SELECT DISTINCT ?modultyp  WHERE {
+            ?resourceUri <https://bmake.th-brandenburg.de/module/eduAlignm_Curr> ?alignment.
+            ?alignment a <https://schema.org/AlignmentObject>;
+            <https://schema.org/targetDescription> ?modultyp.
+            }
+                {% endcapture %}
+                {% assign listelements = page.rdf | sparql_query: modultyp_query %}
+                {% for result in listelements %}
+                {{result.modultyp}}<br />
+                {% endfor %}
+            
+                {% capture alignment_query %}
+                SELECT DISTINCT ?curriculum  WHERE {
+            ?resourceUri <https://schema.org/educationalAlignment> ?alignment.
+            ?alignment a <https://schema.org/AlignmentObject>;
+            <https://schema.org/alignmentType> ?alignmentType;
+            <https://schema.org/targetDescription> ?curriculum.
+            FILTER (regex(?alignmentType, "Zuordnung zum Curriculum", "i")).
+            }
+                {% endcapture %}
+                {% assign listelements = page.rdf | sparql_query: alignment_query %}
+                {% for result in listelements %}
+                {{result.curriculum}}<br />
+                {% endfor %} 
+                
+    </td></tr>
+
+    <tr>
+        <th>Verwendbarkeit des Moduls</th><td>
+        {% assign tests = page.rdf | rdf_property: '<https://schema.org/educationalUse>', nil, true %}
+
+        {% for res in tests %}
+        {{res}}<br />
+        {% endfor %}
+    </td></tr>
+
+    <tr>
+        <th>Häufigkeit des Angebots von Modulen</th><td>
+            {% capture mode_query %}
+            SELECT DISTINCT ?mode WHERE {
+            ?resourceUri <https://schema.org/hasCourseInstance> ?instance.
+            ?instance a <https://schema.org/CourseInstance>;
+            <https://schema.org/courseMode> ?mode.
+            }
+            {% endcapture %}
+            {% assign listelements = page.rdf | sparql_query: mode_query %}
+            {% for result in listelements %}
+            {{result.mode}}<br />
+            {% endfor %}
+    </td></tr>
+
+    <tr>
+        <th>Modulverantwortlicher</th><td>
+        {% capture accountPerson_query %}
+        SELECT DISTINCT ?person WHERE {
+        ?resourceUri <https://schema.org/accountablePerson> ?person.
+        }
+        {% endcapture %}
+        {% assign listelements = page.rdf | sparql_query: accountPerson_query %}
+        {% for result in listelements %}
+		<a href="{{ result.person | remove: 'https://' | prepend: '/rdfsites/https/' }}.html">{{ result.person | rdf_property: '<http://www.w3.org/2000/01/rdf-schema#label>' }}</a><br />
+        {% endfor %}
+    </td></tr>
+
+    <tr>
+        <th>Dozent/in</th>
+        <td>
+            {% capture instructor_query %}
+            SELECT DISTINCT ?instructor WHERE {
+            ?resourceUri <https://schema.org/hasCourseInstance> ?instance.
+			?instance a <https://schema.org/CourseInstance>;
+			<https://schema.org/instructor> ?instructor.
+            }
+            {% endcapture %}
+            {% assign listelements = page.rdf | sparql_query: instructor_query %}
+            {% for result in listelements %}
+            <a href="{{ result.instructor | remove: 'https://' | prepend: '/rdfsites/https/' }}.html">{{ result.instructor | rdf_property: '<http://www.w3.org/2000/01/rdf-schema#label>' }}</a><br />
+            {% endfor %}
+        </td>
+    </tr>
+
+    <tr>
+        <th>Lehrsprache</th><td>
+        {% assign tests = page.rdf | rdf_property: '<https://schema.org/inLanguage>', nil, true %}
+	
+		{% assign n = tests | size | minus: 1 %}
+		{% for i in (0..n) %}
+        	{% if i < n %}
+        		{% if tests[i] == 'en' %}
+          			Englisch und
+				{% endif %}
+        		{% if tests[i] == 'de'%}
+          	  		Deutsch und
+				{% endif %}
+        	{% else %}
+        		{% if tests[i] == 'en' %}
+          			Englisch
+				{% endif %}
+        		{% if tests[i] == 'de'%}
+          	  		Deutsch
+				{% endif %}
+			{% endif %}
+        {% endfor %}
+    </td></tr>
+
+    <tr>
+        <th>Voraussetzungen</th><td>
+        {% assign tests = page.rdf | rdf_property: '<https://schema.org/coursePrerequisites>', nil, true %}
+
+        {% for res in tests %}
+        {{res}}<br />
+        {% endfor %}
+    </td></tr>
+
+    <tr>
+        <th>ECTS-Credits</th><td>
+        {% assign tests = page.rdf | rdf_property: '<https://schema.org/educationalCredentialAwarded>', nil, true %}
+
+        {% for res in tests %}
+        {{res}}<br />
+        {% endfor %}
+    </td></tr>
+
+    <tr>
+        <th>Gesamtworkload und ihre Zusammensetzung</th><ul>
+        <td>{% assign tests = page.rdf | rdf_property: '<https://schema.org/timeRequired>', nil, true %}
+
+            {% for res in tests %}
+            Gesamt: 
+                {% assign n = res | size %}
+                {%  assign n = n | minus: 4  %}
+                {{ res | slice: n, 3 }} Stunden, davon:<br />
+            {% endfor %}
+
+            {% capture workload_query %}
+            SELECT DISTINCT ?name ?value WHERE {
+            ?resourceUri <https://bmake.th-brandenburg.de/module/addProp_CompWL> ?propertyvalue.
+            ?propertyvalue a <https://schema.org/PropertyValue>;
+            <https://schema.org/valueReference> ?valueReference.
+            ?valueReference a  <https://schema.org/PropertyValue>;
+            <https://schema.org/name> ?name;    
+            <https://schema.org/value> ?value.
+            
+            }
+            ORDER BY ASC(?name)
+            {% endcapture %}
+            {% assign listelements = page.rdf | sparql_query: workload_query %}
+            {% for result in listelements %}
+            <li>{{result.name}}: {{result.value}}<br /></li>
+            {% endfor %}
+        </td></ul>
+    </tr>
+
+    <tr>
+        <th>Lehrform/SWS</th><td>
+            {% capture sws_query %}
+            SELECT DISTINCT ?swsLabel  WHERE {
+        ?resourceUri <https://bmake.th-brandenburg.de/module/eduAlignm_SWS> ?alignment.
+        ?alignment a <https://schema.org/AlignmentObject>;
+        <https://schema.org/targetName> ?swsLabel.
+        }
+            {% endcapture %}
+            {% assign listelements = page.rdf | sparql_query: sws_query %}
+            {% for result in listelements %}
+            {{result.swsLabel}}<br />
+            {% endfor %}
+    </td></tr>
+
+    <tr>
+        <th>Studien-/Prüfungsleistungen</th><ul>
+        <td>
+            {% capture listelements_query %}
+            SELECT DISTINCT ?listelements WHERE {
+            ?resourceUri <https://bmake.th-brandenburg.de/module/about_Exam> ?itemlist.
+            ?itemlist a <https://schema.org/ItemList>;
+            <https://schema.org/itemListElement> ?listelements.
+            }
+            ORDER BY ASC(?listelements)
+            {% endcapture %}
+            {% assign listelements = page.rdf | sparql_query: listelements_query %}
+            {% for result in listelements %}
+            <li>{{result.listelements}}<br /></li>
+            {% endfor %}
+        </td><ul>
+    </tr>
+
+    <tr>
+        <th>Gewichtung der Note in der Gesamtnote</th><td>
+                {% capture grade_query %}
+                SELECT DISTINCT ?grade  WHERE {
+            ?resourceUri <https://bmake.th-brandenburg.de/module/eduAlignm_Grade> ?alignment.
+            ?alignment a <https://schema.org/AlignmentObject>;
+            <https://schema.org/targetName> ?grade.
+            }
+                {% endcapture %}
+                {% assign listelements = page.rdf | sparql_query: grade_query %}
+                {% for result in listelements %}
+					{% assign grades = result.grade | split: ", " %}
+					{% for member in grades %}
+					  {{ member }}<br />
+					{% endfor %}
+                {% endfor %}
+    </td></tr>
+
+    <tr>
+        <th>Lernergebnisse</th>
+        <td><ul>
+            {% capture lernergebnis_query %}
+            SELECT DISTINCT ?listelements WHERE {
+            ?resourceUri <https://bmake.th-brandenburg.de/module/about_LResults> ?itemlist.
+            ?itemlist a <https://schema.org/ItemList>;
+            <https://schema.org/itemListElement> ?listelements.
+            }
+            ORDER BY ASC(?listelements)
+            {% endcapture %}
+            {% assign listelements = page.rdf | sparql_query: lernergebnis_query %}
+            {% for result in listelements %}
+            <li>{{result.listelements}}<br /></li><br>
+            {% endfor %}
+        </ul></td>
+    </tr>
+
+    <tr>
+        <th>Inhalte</th>
+        <td><ol>
+            {% capture listelements_query %}
+            SELECT DISTINCT ?listelements WHERE {
+            ?resourceUri <https://bmake.th-brandenburg.de/module/about_Content> ?itemlist.
+            ?itemlist a <https://schema.org/ItemList>;
+            <https://schema.org/itemListElement> ?listelements.
+            }
+            ORDER BY ASC(?listelements)
+            {% endcapture %}
+            {% assign listelements = page.rdf | sparql_query: listelements_query %}
+            {% for result in listelements %}
+			{% assign n = result.listelements | size %}
+			{%  assign n = n | minus: 2  %}
+			<li>{{ result.listelements | slice: 2, n }}</li><br>
+            {% endfor %}
+        </ol></td>
+    </tr>
+
+    <tr>
+        <th>Lehr- und Lernmethoden</th><ul><td>
+        {% assign tests = page.rdf | rdf_property: '<https://schema.org/interactivityType>', nil, true %}
+
+        {% for res in tests %}
+        <li>{{res}}<br /></li>
+        {% endfor %}
+    </td></ul></tr>
+
+    <tr>
+        <th>Literatur</th>
+        <td><ul class="list-unstyled">
+            {% capture citation_query %}
+            SELECT DISTINCT ?headline ?authorName WHERE {
+            ?resourceUri <https://schema.org/citation> ?citation.
+            ?citation a <https://schema.org/Book>;
+            <https://schema.org/author> ?author;
+            <https://schema.org/headline> ?headline.
+            ?author <http://www.w3.org/2000/01/rdf-schema#label> ?authorName.
+            }
+            ORDER BY ASC(?headline)
+            {% endcapture %}
+            {% assign listelements = page.rdf | sparql_query: citation_query %}
+            {% for result in listelements %}
+            <li><strong>{{result.authorName}}:<br /></strong>{{result.headline}}</li><br>
+            {% endfor %}
+        </ul></td>
+    </tr>
+
+    <tr>
+        <th>Besonderes</th>
+        <td>{{ page.rdf | rdf_property: '<https://schema.org/comment>' }}</td>
+    </tr>
+
+     <tr>
+    <th>URL</th>
+    <td><a href="{{ page.rdf | rdf_property: '<https://schema.org/url>' }}">{{ page.rdf | rdf_property: '<https://schema.org/url>' }}</a></td>
+  </tr>
+
+</table>
+
+</div>
+</div>
+</div>
+
+<div class="copyright py-4 text-center text-white">
+    <div class="container">
+        <small>Copyright &copy; WIM EKGI @ THB - Team 1</small>
+    </div>
+</div>
+
+</body>
+</html>

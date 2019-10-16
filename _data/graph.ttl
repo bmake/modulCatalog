@@ -1,0 +1,2533 @@
+<https://bmake.th-brandenburg.de/module/index> a <https://schema.org/WebPage> .
+<https://bmake.th-brandenburg.de/module/TF1_SYSA>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Vorlesung" ;
+        <https://schema.org/value>  30 .
+
+<http://www.omg.org/spec/DMN/1.1/PDF>
+        a                               <https://schema.org/DigitalDocument> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "DMN 1.1" ;
+        <https://schema.org/datePublished>
+                "2016" ;
+        <https://schema.org/headline>   "DMN 1.1 – Technische Spezifikation" ;
+        <https://schema.org/publisher>  <http://www.wikidata.org/entity/Q252733> ;
+        <https://schema.org/url>        "http://www.omg.org/spec/DMN/1.1/PDF" .
+
+<https://www.isbn-international.org/978-3-446-45054-7>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Freund/Rücker: BPMN 2" ;
+        <https://schema.org/author>    <https://www.xing.com/profile/Bernd_Ruecker2> , <https://www.xing.com/profile/Jakob_Freund> ;
+        <https://schema.org/bookEdition>
+                "5. Auflage" ;
+        <https://schema.org/datePublished>
+                "2017" ;
+        <https://schema.org/headline>  "Praxishandbuch BPMN – Mit einer Einführung in CMMN und DMN." .
+
+<https://www.linkedin.com/in/jamestaylor>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "James Taylor" ;
+        <https://schema.org/familyName>
+                "Taylor" ;
+        <https://schema.org/givenName>  "James" ;
+        <https://schema.org/honorificPrefix>
+                "" .
+
+<http://www.wikidata.org/entity/Q896198>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Samy Molcho" ;
+        <https://schema.org/familyName>
+                "Molcho" ;
+        <https://schema.org/givenName>  "Samy" ;
+        <https://schema.org/honorificPrefix>
+                "" .
+
+<https://bmake.th-brandenburg.de/module/WL2_AWIM>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Präsenzübungen" ;
+        <https://schema.org/value>  15 .
+
+<https://bmake.th-brandenburg.de/module/ModuleType_WIB>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "Modultyp" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, Anlage 1" ;
+        <https://schema.org/targetDescription>
+                "muss von allen Studierenden belegt und absolviert werden" ;
+        <https://schema.org/targetName>
+                "Pflichtmodul" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6>
+        a                              <https://schema.org/CreativeWork> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Journal: Computer, 1983/6" ;
+        <https://schema.org/headline>  "Computer" ;
+        <https://schema.org/url>       "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6" .
+
+<https://schema.org/Book>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Klasse für die Bücher, die als Literatur zu Modulen empfohlen werden"@de , "The class of books used as literature used in a course."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Buch"@de , "Book"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/CreativeWork> .
+
+<https://www.isbn-international.org/3763229892>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Molcho: Körpersprache" ;
+        <https://schema.org/author>    <http://www.wikidata.org/entity/Q896198> ;
+        <https://schema.org/bookEdition>
+                "1" ;
+        <https://schema.org/datePublished>
+                "1983" ;
+        <https://schema.org/headline>  "Körpersprache" ;
+        <https://schema.org/url>       "http://www.samy-molcho.de/luv.htm" .
+
+<https://www.xing.com/profile/Thomas_Allweyer>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Thomas Allweyer" ;
+        <https://schema.org/familyName>
+                "Allweyer" ;
+        <https://schema.org/givenName>  "Thomas" ;
+        <https://schema.org/honorificPrefix>
+                "Prof. Dr." .
+
+<https://bmake.th-brandenburg.de/module/WL3_AWIM>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "betreute Projektarbeit" ;
+        <https://schema.org/value>  15 .
+
+<https://bmake.th-brandenburg.de/module/WIB_MGTO>
+        a                          <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Management & Organisation" ;
+        <https://schema.org/courseCode>
+                "MGTO" ;
+        <https://schema.org/name>  "Management and Organization"@en , "Management und Organisation"@de ;
+        <https://schema.org/url>   "https://wirtschaft.th-brandenburg.de/studium/plaene-und-termine/vorlesungsverzeichnis/vorlesungsverzeichnis-wi-bachelor/management-und-organisation/" .
+
+<https://bmake.th-brandenburg.de/module/TF2_PMSK>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Übung" ;
+        <https://schema.org/value>  30 .
+
+<https://bmake.th-brandenburg.de/module/TeachingForms_PMSK>
+        a                          <https://schema.org/PropertyValue> ;
+        <https://schema.org/identifier>
+                "TeachingForms" ;
+        <https://schema.org/name>  "Lehrformen mit Präsenzzeiten in Stunden" ;
+        <https://schema.org/valueReference>
+                <https://bmake.th-brandenburg.de/module/TF2_PMSK> , <https://bmake.th-brandenburg.de/module/TF1_PMSK> .
+
+<https://bmake.th-brandenburg.de/module/about_Content>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um auf die Liste der Lerninhalte eines Moduls zu referenzieren"@de , "is used to reference a list of learning contents (topics) for a module"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://bmake.th-brandenburg.de/module/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lerninhalte"@de , "learning content"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+                <https://schema.org/about> .
+
+<https://bmake.th-brandenburg.de/module/CompWL_SYSA>
+        a                          <https://schema.org/PropertyValue> ;
+        <https://schema.org/identifier>
+                "Workload" ;
+        <https://schema.org/name>  "Aufteilung der Workload in Stunden" ;
+        <https://schema.org/valueReference>
+                <https://bmake.th-brandenburg.de/module/WL2_SYSA> , <https://bmake.th-brandenburg.de/module/WL1_SYSA> .
+
+<https://bmake.th-brandenburg.de/module/LResults_AAIT>
+        a                          <https://schema.org/ItemList> ;
+        <https://schema.org/identifier>
+                "Results" ;
+        <https://schema.org/itemListElement>
+                "Sie verstehen die Zusammenhänge im IT-Projektmanagement im Hinblick auf Prozessqualität und Prozessreife nach CMMI-ACQ." , "Sie können Methoden der agilen Projektsteuerung im Kontext der Beschaffung und Implementierung von IT-Diensten in der betrieblichen Praxis anwenden." , "Sie beherrschen wissenschaftlich begründete Methoden zur Erhebung, Verwaltung und Umsetzung von Anforderungen sowie zur systematischen Auswahl und Anpassung von IT-Diensten." , "Die Studierenden kennen das internationale Framework für die Gestaltung strukturierter Prozesse der Auswahl und Anpassung von IT-Diensten CMMI-ACQ V1.3." ;
+        <https://schema.org/name>  "Lernergebnisse AAIT" .
+
+<https://bmake.th-brandenburg.de/module/Exam_SYSA>
+        a                          <https://schema.org/ItemList> ;
+        <https://schema.org/identifier>
+                "Exam" ;
+        <https://schema.org/itemListElement>
+                "Klausur" ;
+        <https://schema.org/name>  "Studien-/Prüfungsleistungen SYSA" .
+
+<https://www.isbn-international.org/978-0982368114>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Silver: BPMN - Method & Style" ;
+        <https://schema.org/author>    <https://www.linkedin.com/in/bruce-silver-6a3859> ;
+        <https://schema.org/bookEdition>
+                "2nd edition" ;
+        <https://schema.org/datePublished>
+                "2011" ;
+        <https://schema.org/headline>  "BPMN Method & Style – With BPMN Implementor’s Guide." .
+
+<https://schema.org/pageStart>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um die erste Seite eines Artikels in einem Journal oder einem Sammelband zu definieren"@de , "is used to specify the first page of an article in a journal or volume"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Article> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "erste Seite"@de , "page start"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://bmake.th-brandenburg.de/module/CompWL_GPMO>
+        a                          <https://schema.org/PropertyValue> ;
+        <https://schema.org/identifier>
+                "Workload" ;
+        <https://schema.org/name>  "Aufteilung der Workload in Stunden" ;
+        <https://schema.org/valueReference>
+                <https://bmake.th-brandenburg.de/module/WL5_GPMO> , <https://bmake.th-brandenburg.de/module/WL4_GPMO> , <https://bmake.th-brandenburg.de/module/WL3_GPMO> , <https://bmake.th-brandenburg.de/module/WL2_GPMO> , <https://bmake.th-brandenburg.de/module/WL1_GPMO> .
+
+<https://schema.org/URL>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Allgemeine Klasse für alle Literale die eine URL darstellen."@de , "General class for all literals being an URL."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "URL"@de , "URL"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/Text> .
+
+<https://bmake.th-brandenburg.de/module/eduAlignm_SWS>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um die SWS eines Moduls zu referenzieren"@de , "is used to reference the semester hours per week for a module"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://bmake.th-brandenburg.de/module/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Semesterwochenstunden"@de , "semester hours per week"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+                <https://schema.org/educationalAlignment> .
+
+<https://www.xing.com/profile/Anne_Kramer14>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Anne Kramer" ;
+        <https://schema.org/familyName>
+                "Kramer" ;
+        <https://schema.org/givenName>  "Anne" ;
+        <https://schema.org/honorificPrefix>
+                "Dr." .
+
+<https://bmake.th-brandenburg.de/module/Wi18_PMSK>
+        a                              <https://schema.org/CourseInstance> ;
+        <https://schema.org/courseMode>
+                "jedes Wintersemester" ;
+        <https://schema.org/duration>  "P0.5Y" ;
+        <https://schema.org/identifier>
+                "PMSK WiSe18/19" ;
+        <https://schema.org/instructor>
+                <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/andreas-johannsen> .
+
+<https://bmake.th-brandenburg.de/module/Curr_WIB_GPMO>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "Zuordnung zum Curriculum" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, Anlage 1" ;
+        <https://schema.org/targetDescription>
+                "Wirtschaftsinformatik Bachelor, 2. Semester (Vollzeitmodus)" ;
+        <https://schema.org/targetName>
+                "WI Ba, 2. Semester" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<http://www.wikidata.org/entity/Q37033>
+        a                               <https://schema.org/Organization> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "W3C" ;
+        <https://schema.org/legalName>  "World Wide Web Consortium - W3C" ;
+        <https://schema.org/url>        "https://www.w3.org/" .
+
+<http://www.wikidata.org/entity/Q252733>
+        a                               <https://schema.org/Organization> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "OMG" ;
+        <https://schema.org/legalName>  "Object Management Group" ;
+        <https://schema.org/url>        "https://www.omg.org/" .
+
+<https://bmake.th-brandenburg.de/module/>
+        a                             <http://www.w3.org/2002/07/owl#Ontology> , <http://purl.org/vocommons/voaf#Vocabulary> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "This vocabulary is defined under the reuse of schema.org classes, relations and attributes. It is primarily aimed at supporting the documentation, maintenance and deployment of module catalogs at the Department of Economics at Brandenburg University of Applied Sciences. "@en ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Modulkatalog"@de ;
+        <http://purl.org/dc/elements/1.1/creator>
+                <http://orcid.org/0000-0002-2780-0222> ;
+        <http://purl.org/dc/elements/1.1/description>
+                "This vocabulary is defined under the reuse of schema.org classes, relations and attributes. It is primarily aimed at supporting the documentation, maintenance and deployment of module catalogs at the Department of Economics at Brandenburg University of Applied Sciences."@en ;
+        <http://purl.org/dc/elements/1.1/description>
+                <https://bmake.th-brandenburg.de/downloads/ModuleCatalogBaseSchema.svg> ;
+        <http://purl.org/dc/elements/1.1/publisher>
+                <http://www.wikidata.org/entity/Q1391182> ;
+        <http://purl.org/dc/elements/1.1/rights>
+                "Copyright © 2018 BMaKE, THB" ;
+        <http://purl.org/dc/elements/1.1/title>
+                "Basic Schema for University Module Catalogs at BUAS" ;
+        <http://purl.org/dc/terms/issued>
+                "2018-06-04"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://purl.org/dc/terms/modified>
+                "2019-01-13"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "v 0.4 - PoC; nine proprietary subproperties for Course added: about_LResults, about_Content and about_Exam for schema:about; addProp_CompWL and addProp_TeachingForms for schema:additionalProperty; eduAlignm_Curr, eduAlignm_SWS, eduAlign_Grad and eduAlignm_ModuleType for schema:educationalAlignment; this refactoring became necessary for technical reasons - more direct reference to specific properties"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "modcat vocabulary"@en ;
+        <https://schema.org/license>  <http://creativecommons.org/licenses/by/3.0/> .
+
+<https://bmake.th-brandenburg.de/module/ModuleType_WIB_AAIT>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "Modultyp" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, Anlage 1" ;
+        <https://schema.org/targetDescription>
+                "muss von allen Studierenden belegt und absolviert werden" ;
+        <https://schema.org/targetName>
+                "Pflichtmodul" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://schema.org/courseMode>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "gibt an, in welcher Modalität ein Modul angeboten wird, z. B. jedes Sommersemester, Vollzeit"@de , "mode of performing a course instance, e. g. blended learning, full time, part time."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/CourseInstance> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Art und Häufigkeit des Angebots"@de , "course mode"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://schema.org/AlignmentObject>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "ein immaterielles Objekt, an dem sich ein Modul ausrichtet, was zugleich ein Knoten (ein Paragraph, ein Absatz) in einem Bildungs- oder Qualifikationsrahmen ist"@de , "An intangible item that describes an alignment between a learning resource and a node in an educational framework."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ausrichtungsobjekt"@de , "Alignment Object"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/Intangible> .
+
+<https://bmake.th-brandenburg.de/module/ModuleType_WIB_GPMO>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "Modultyp" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, Anlage 1" ;
+        <https://schema.org/targetDescription>
+                "muss von allen Studierenden belegt und absolviert werden" ;
+        <https://schema.org/targetName>
+                "Pflichtmodul" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<http://www.wikidata.org/entity/Q1391182>
+        a                               <https://schema.org/Organization> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "TH Brandenburg" ;
+        <http://www.w3.org/2000/01/rdf-schema#legalName>
+                "THB - Technische Hochschule Brandenburg"@de ;
+        <https://schema.org/legalName>  "Technische Hochschule Brandenburg" ;
+        <https://schema.org/name>       "BUAS - Brandenburg University of Applied Sciences"@en ;
+        <https://schema.org/url>        "https://www.th-brandenburg.de/" , "http://th-brandenburg.de" .
+
+<http://www.wikidata.org/entity/Q428361>
+        a                               <https://schema.org/DigitalDocument> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "CMMI-ACQ V. 1.3" ;
+        <https://schema.org/datePublished>
+                "2010" ;
+        <https://schema.org/headline>   "CMMI for Acquisition, V. 1.3" ;
+        <https://schema.org/publisher>  <http://www.wikidata.org/entity/Q1662502> ;
+        <https://schema.org/url>        "https://resources.sei.cmu.edu/asset_files/TechnicalReport/2010_005_001_15284.pdf" .
+
+<https://bmake.th-brandenburg.de/module/SWS_WIB_GPMO>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "SWS" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, Anlage 1" ;
+        <https://schema.org/targetDescription>
+                "Umfang des Moduls in Semesterwochenstunden" ;
+        <https://schema.org/targetName>
+                "4 SWS" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<http://www.wikidata.org/entity/Q92815>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Barry W. Boehm" ;
+        <https://schema.org/familyName>
+                "Boehm" ;
+        <https://schema.org/givenName>  "Barry W." ;
+        <https://schema.org/honorificPrefix>
+                "Prof. Dr." .
+
+<http://doi.org/10.1007/b97668>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bhushan/Kanwal: Strategic Decision Making" ;
+        <https://schema.org/author>    <https://www.linkedin.com/in/kanwalrai> , <https://www.linkedin.com/in/navneetbhushan> ;
+        <https://schema.org/bookEdition>
+                "" ;
+        <https://schema.org/datePublished>
+                "2004" ;
+        <https://schema.org/headline>  "Strategic Decision Making – Applying the Analytic Hierarchy Process" ;
+        <https://schema.org/url>       "https://www.springer.com/de/book/9781852337568" .
+
+<https://schema.org/targetName>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "referenziert auf die Bezeichnung der hier verwendeten Vorgabe aus dem Ausrichtungsrahmen, z. B. Bezeichnung eines Studiengangs zu dem das Modul gehört"@de , "The name of a node in an established educational framework."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/AlignmentObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bezeichnung der Vorgabe"@de , "target name"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://schema.org/courseCode>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Kurzkennzeichen für ein Modul"@de , "A short (formal) abbreviation for a course."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Modul-Kurzkennzeichen"@de , "course code"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://www.researchgate.net/profile/Matthias_Trier2>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Matthias Trier" ;
+        <https://schema.org/familyName>
+                "Trier" ;
+        <https://schema.org/givenName>  "Matthias" ;
+        <https://schema.org/honorificPrefix>
+                "Dr." .
+
+<http://doi.org/10.1007/978-3-322-82334-2k>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kress/von Studnitz: Führungskräfte" ;
+        <https://schema.org/author>    <https://www.xing.com/profile/Andreas_vonStudnitz> , <https://buch-findr.de/autoren/kress-nadina-maria/> ;
+        <https://schema.org/bookEdition>
+                "" ;
+        <https://schema.org/datePublished>
+                "2001" ;
+        <https://schema.org/headline>  "Überlebensstrategien für Führungskräfte" ;
+        <https://schema.org/url>       "https://www.springer.com/de/book/9783322823359" .
+
+<https://bmake.th-brandenburg.de/module/Grade_WIB_GPMO>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "Gewichtung der Note" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, § 13" ;
+        <https://schema.org/targetDescription>
+                "Gewichtungsanteile der Note im Hinblick auf die spezifische Fachnote (1/3), den Mittelwert aller Fachnoten (3,33 %) sowie die Abschlussnote (2,67 %)" ;
+        <https://schema.org/targetName>
+                "1/3 der Fachnote, 3,33 % des Mittelwerts aller Modulnoten, 2,67 % der Abschlussnote" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://schema.org/identifier>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet um eine Auflistung eindeutig zu identifizieren, z. B. als Lernergebnisse, Lerninhalte, Prüfungsformen"@de , "is used to specify an item list, e. g. outcome, content, examination" ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Thing> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ID einer Auflistung"@de , "item list identifier"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://bmake.th-brandenburg.de/module/Content_SYSA>
+        a                          <https://schema.org/ItemList> ;
+        <https://schema.org/identifier>
+                "Content" ;
+        <https://schema.org/itemListElement>
+                "3) IST-Analyse: Analyse der bestehenden Situation (Prozesserfassung)" , "1) Einführung in die wesentlichen Phasen einer Systemanalyse" , "4) Problembeschreibung: Isolierung des Betrachtungsraumes, welchem mit einer Lösung begegnet werden soll" , "2) Projektbegründung: Benennung und Erläuterung des Betrachtungsgegenstandes samt seiner Relevanz im Rahmen der jeweiligen Organisation" , "7) Nachbereitung: Schulung, Dokumentation, etc." , "- Es wird versucht, das Adressieren der genannten Phasen an Praxisbeispielen (Fallstudien, etc.) zu üben." , "5) SOLL-Konzeption: Erläuterung des Vorgehens zur Adressierung des Problembereichs, beispielsweise Benennung notwendiger einzuführender Software und/oder dedizierte Eigen-Entwicklung von Software" , "6) Implementierung: Realisierung von Maßnahmen (beispielsweise konkrete Entwicklungsaufgaben)" ;
+        <https://schema.org/name>  "Inhalt SYSA" .
+
+<https://www.xing.com/profile/Bernd_Ruecker2>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bernd Rücker" ;
+        <https://schema.org/familyName>
+                "Rücker" ;
+        <https://schema.org/givenName>  "Bernd" .
+
+<https://bmake.th-brandenburg.de/module/Content_GPMO>
+        a                          <https://schema.org/ItemList> ;
+        <https://schema.org/identifier>
+                "Content" ;
+        <https://schema.org/itemListElement>
+                "2) Einführung in BPMN 2.0: BPMN-Elemente – Flussobjekte, Teilnehmer, Daten, verbindende Elemente, Artefakte; einfache Prozessmodelle: lineare Abläufe, verzweigte Abläufe, Standardflüsse und implizite Gateways" , "5) Ausnahmebehandlung in BPMN 2.0: Angehängte Zwischenereignisse, Ereignis-Teilprozesse, Kategorien von Ausnahmen in Geschäftsprozessen, Throw-Catch-Pattern für Fehlerereignisse, Eskalationsereignisse, Nachrichten- und Signalereignisse, Pattern der Weiterleitung von Ausnahmen" , "1) Einführung in die Prozessmodellierung: Sichten auf Prozesse, Modellierungsanlässe, Modellierungsgegenstände, proprietäre Notationen, Standardnotationen, Modellierungswerkzeuge" , "6) Weiterführende Themen: Schleifen und Mehrfachinstanziierung, Transaktionen und Kompensationen, Typen von BPMN Prozessdiagrammen, Gegenüberstellung von deskriptiver und analytischer Modellierung, Ausblick technische Modellierung" , "7) Erhebung, Analyse und Modellierung realer Geschäftsprozesse nach KSA und BPMN 2.0: Kommunikation mit Stakeholdern, Erhebung von Anforderungen, fachliche und technische Analyse von Prozessen, Modellierung von Ist- und Sollprozessen, Implementierung der Prozessmodelle in eine Plattform, Dokumentation von Prozessinformationen, Präsentation der Ergebnisse vor Stakeholdern" , "4) Spezifikation von BPMN-Flussobjekte: technischer Spezifikationsrahmen BPMN-XML, Spezifikation von Triggern für Catching-Ereignisse, Spezifikation von Prozesszuständen für Throwing-Ereignisse, Spezifikation von Aufgaben und Aktivitäten im Hinblick auf Art und Häufigkeit der Ausführung, spezielle Typen von Gateways – ereignisbasiertes XOR-Gateway, inclusive OR Gateway, komplexes Gateway" , "3) Methode und Stil von BPMN nach Bruce Silver: Mehrschrittmethode – Prozessrahmen definieren, Happy Path entwerfen, Ausnahmepfade ergänzen, Teilprozesse expandieren, Nachrichtenflüsse zu externen Teilnehmern ergänzen, Datenobjekte ergänzen; Style-Prinzipien und grundlegende Anwendungsregeln für BPMN 2.0" ;
+        <https://schema.org/name>  "Inhalt GPMO" .
+
+<https://schema.org/valueReference>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um einen komplexen Eigenschaftswert auf detaillierte einfache Werte (Namenswertpaare) zu verweisen"@de , "is used to refer a complex property value to detailed simple ones (name value pairs)"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/PropertyValue> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wertreferenz"@de , "value reference"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/PropertyValue> .
+
+<https://schema.org/CreativeWork>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Oberklasse für die Module, ihre Teile sowie die Literatur zum Kurs"@de , "Main class for courses, their parts and related literature."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Werk, Schöpfung"@de , "Creative Work"@en .
+
+<https://www.isbn-international.org/978-3486584462>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Krallmann: Systemanalyse" ;
+        <https://schema.org/author>    <https://www.researchgate.net/profile/Matthias_Trier2> , <https://www.researchgate.net/profile/Marten_Schoenherr> , <https://www.xing.com/profile/Hermann_Krallmann> ;
+        <https://schema.org/bookEdition>
+                "5. Auflage" ;
+        <https://schema.org/datePublished>
+                "2007" ;
+        <https://schema.org/headline>  "Systemanalyse im Unternehmen - Prozessorientierte Methoden der Wirtschaftsinformatik" ;
+        <https://schema.org/url>       "https://www.researchgate.net/publication/200167235_Systemanalyse_im_Unternehmen_-_prozessorientierte_Methoden_der_Wirtschaftsinformatik" .
+
+<https://schema.org/isPartOf>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um eine Quelle als Teil eines Sammelwerkes zu kennzeichnen"@de , "Is used to relate creative works (articles) to a more comprehensive creative works (a collection)."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/CreativeWork> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "In"@de , "has part"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/CreativeWork> .
+
+<https://schema.org/learningResourceType>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um darzustellen, wie sich ein Modul in methodisch oder inhaltlich unterschiedliche Lehrveranstaltungen aufteilt"@de , "different kinds of learning arrangements applied in an educational course"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Aufteilung in Lehrveranstaltungen"@de , "learning resource type"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://schema.org/headline>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Wird primär für die Titel der Literatur zu einem Modul verwendet"@de , "indicates a title or headline fo a creative work."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/CreativeWork> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Titel eines Werkes"@de , "headline"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://www.xing.com/profile/JosefW_Seifert>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Josef W. Seifert" ;
+        <https://schema.org/familyName>
+                "Seifert" ;
+        <https://schema.org/givenName>  "Josef W." ;
+        <https://schema.org/honorificPrefix>
+                "" .
+
+<https://bmake.th-brandenburg.de/module/WIB_SYSA>
+        a                              <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Systemanalyse" ;
+        <https://bmake.th-brandenburg.de/module/about_Content>
+                <https://bmake.th-brandenburg.de/module/Content_SYSA> ;
+        <https://bmake.th-brandenburg.de/module/about_Exam>
+                <https://bmake.th-brandenburg.de/module/Exam_SYSA> ;
+        <https://bmake.th-brandenburg.de/module/about_LResults>
+                <https://bmake.th-brandenburg.de/module/LResults_SYSA> ;
+        <https://bmake.th-brandenburg.de/module/addProp_CompWL>
+                <https://bmake.th-brandenburg.de/module/CompWL_SYSA> ;
+        <https://bmake.th-brandenburg.de/module/addProp_TeachingForms>
+                <https://bmake.th-brandenburg.de/module/TeachingForms_SYSA> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_Curr>
+                <https://bmake.th-brandenburg.de/module/Curr_WIB_SYSA> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_Grade>
+                <https://bmake.th-brandenburg.de/module/Grade_WIB_SYSA> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_ModuleType>
+                <https://bmake.th-brandenburg.de/module/ModuleType_WIB_SYSA> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_SWS>
+                <https://bmake.th-brandenburg.de/module/SWS_WIB_SYSA> ;
+        <https://schema.org/accountablePerson>
+                <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/dietmar-wikarski> ;
+        <https://schema.org/citation>  <https://www.isbn-international.org/9783865811998> , <https://www.isbn-international.org/978-3642354458> , <https://www.isbn-international.org/978-3486584462> , <http://doi.org/10.1007/978-3-8348-2428-8> ;
+        <https://schema.org/comment>   "Gruppenarbeiten werden unterstützt durch eine kollaborative Dateiaustausch-Plattform (BSCW)." ;
+        <https://schema.org/courseCode>
+                "CourseCode" ;
+        <https://schema.org/coursePrerequisites>
+                "keine" ;
+        <https://schema.org/datePublished>
+                "2018-06-01" ;
+        <https://schema.org/educationalCredentialAwarded>
+                "5" ;
+        <https://schema.org/educationalUse>
+                "Dient der Vorbereitung darauf aufbauender Veranstaltungen, insbesondere bzgl. Modellierung von Prozessen." ;
+        <https://schema.org/hasCourseInstance>
+                <https://bmake.th-brandenburg.de/module/Wi18_SYSA> ;
+        <https://schema.org/inLanguage>
+                "de" , "en" ;
+        <https://schema.org/interactivityType>
+                "Gruppenarbeiten" , "Vorlesung mit Folien" , "begleitende Übungen mit Hausaufgaben" ;
+        <https://schema.org/learningResourceType>
+                "Vorlesung" , "Übung" ;
+        <https://schema.org/name>      "Systemanalyse"@de , "Systems Analysis"@en ;
+        <https://schema.org/timeRequired>
+                "PT150H" ;
+        <https://schema.org/url>       "https://wirtschaft.th-brandenburg.de/studium/plaene-und-termine/vorlesungsverzeichnis/vorlesungsverzeichnis-wi-bachelor/systemanalyse/" .
+
+<https://bmake.th-brandenburg.de/module/LResults_PMSK>
+        a                          <https://schema.org/ItemList> ;
+        <https://schema.org/identifier>
+                "Results" ;
+        <https://schema.org/itemListElement>
+                "Sie nutzen die Möglichkeiten erfolgreichen Kommunizierens (diskutieren, erläutern, erklären, verhandeln etc.) in Projektsituationen" , "Sie erkennen die eigenen Ressourcen. Sie können die Erfordernisse des beruflichen Miteinanders darlegen sowie den Ausbau des persönlichen Potentials identifizieren." , "Die Studierenden können verbreitete Projektmanagement-Methoden anwenden." , "Die Studierenden erkennen und diskutieren soziale Kompetenzen im Kontext des Projektmanagements." , "Sie wenden unterschiedliche Teamarbeitsformen im Rahmen der Erstellung und Präsentation der Gruppenarbeit an" , "Sie kennen die Grundzüge und Methoden des professionellen Projektmanagements." , "Sie identifizieren besondere soziale Phänomene und Probleme in Projekten." , "Sie bereiten sich auf bevorstehende Bewerbungsabläufe vor und wenden Methoden des Zeitmanagements sowie der Arbeitsorganisation an." ;
+        <https://schema.org/name>  "Lernergebnisse PMSK" .
+
+<https://bmake.th-brandenburg.de/module/WL2_AAIT>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Selbststudium" , "selbständige Projektarbeit" , "Präsenzübungen" ;
+        <https://schema.org/value>  70 , 20 , 15 .
+
+<https://schema.org/educationalCredentialAwarded>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Anzahl der ECTS-Kreditpunkte, die ein Studierender in diesem Modul erwerben kann"@de , "educational credentials beeing assigned to a participant after completing successfully the course, e. g. ECTS points"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ECTS-Credits"@de , "educational credential awarded"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Integer> .
+
+<https://www.isbn-international.org/978-3-86490-429-5>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Johannsen e.a.: Basiswissen SW-PM" ;
+        <https://schema.org/author>    <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/andreas-johannsen> , <https://www.xing.com/profile/Horst_Kostal> , <https://www.xing.com/profile/Ewa_Sadowic> , <https://www.xing.com/profile/Anne_Kramer14> ;
+        <https://schema.org/bookEdition>
+                "" ;
+        <https://schema.org/datePublished>
+                "2017" ;
+        <https://schema.org/headline>  "Basiswissen für Softwareprojektmanager im klassischen und agilen Umfeld" ;
+        <https://schema.org/url>       "https://www.dpunkt.de/buecher/12782/9783864904295-basiswissen-f%E3%BCr-softwareprojektmanager-im-klassischen-und-agilen-umfeld.html" .
+
+<https://www.xing.com/profile/Andreas_vonStudnitz>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Andreas von Studnitz" ;
+        <https://schema.org/familyName>
+                "von Studnitz" ;
+        <https://schema.org/givenName>  "Andreas" ;
+        <https://schema.org/honorificPrefix>
+                "" .
+
+<https://bmake.th-brandenburg.de/module/TF1_AWIM>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Vorlesung" ;
+        <https://schema.org/value>  30 .
+
+<https://buch-findr.de/autoren/kress-nadina-maria/>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Nadina-Maria Kress" ;
+        <https://schema.org/familyName>
+                "Kress" ;
+        <https://schema.org/givenName>  "Nadina-Maria" ;
+        <https://schema.org/honorificPrefix>
+                "" .
+
+<https://schema.org/Article>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Klasse für die Artikel und Berichte, die als Literatur zu Modulen empfohlen werden"@de , "the class of scholarly article, reports etc. used as literature in a course."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Artikel"@de , "Article"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/CreativeWork> .
+
+<https://schema.org/about>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Superproperty für die Auflistung wesentlicher inhaltlicher Charakteristika eines Moduls: Lerninhalt, Lehr-/Lernziele, Prüfungsleistungen"@de , "superproperty to relate an educational course to its lists of learning outcomes, contents and examinations."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/CreativeWork> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "über"@de , "about"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/ItemList> .
+
+<https://bmake.th-brandenburg.de/module/ModuleType_WIB_PMSK>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "Modultyp" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, Anlage 1" ;
+        <https://schema.org/targetDescription>
+                "muss von allen Studierenden belegt und absolviert werden" ;
+        <https://schema.org/targetName>
+                "Pflichtmodul" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://www.xing.com/profile/Horst_Kostal>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Horst Kostal" ;
+        <https://schema.org/familyName>
+                "Kostal" ;
+        <https://schema.org/givenName>  "Horst" ;
+        <https://schema.org/honorificPrefix>
+                "" .
+
+<https://bmake.th-brandenburg.de/module/WL3_GPMO>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "betreute Projektarbeit" ;
+        <https://schema.org/value>  15 .
+
+<https://schema.org/ItemList>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "eine Liste von Positionen beliebigen Typs, hier primär verwendet für die Auflistung von Lernergebnissen, Lehrinhalten und Prüfungsformen"@de , "A list of items of any sort."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Auflistung"@de , "Item List"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/Intangible> .
+
+<https://www.isbn-international.org/978-38974949303>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Seifert: Visualisieren ..." ;
+        <https://schema.org/author>    <https://www.xing.com/profile/JosefW_Seifert> ;
+        <https://schema.org/bookEdition>
+                "21" ;
+        <https://schema.org/datePublished>
+                "2001" ;
+        <https://schema.org/headline>  "Visualisieren, Präsentieren, Moderieren" ;
+        <https://schema.org/url>       "https://www.gabal-verlag.de/buch/visualisieren_praesentieren_moderieren/9783869362403" .
+
+<https://schema.org/accountablePerson>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um den oder die Verantwortliche/n zu einem Modul zu referenzieren"@de , "Is used to relate a course to a person accountable for it."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Verantwortlich/e"@de , "accountable person"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Person> .
+
+<https://bmake.th-brandenburg.de/module/WL1_SYSA>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Kontakt" ;
+        <https://schema.org/value>  60 .
+
+<https://bmake.th-brandenburg.de/module/WL4_GPMO>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Selbststudium und Prüfungsvorbereitung" ;
+        <https://schema.org/value>  45 .
+
+<https://www.w3.org/TR/skos-reference/>
+        a                               <https://schema.org/DigitalDocument> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "SKOS" ;
+        <https://schema.org/datePublished>
+                "2009" ;
+        <https://schema.org/headline>   "Simple Knowledge Organization System (SKOS)" ;
+        <https://schema.org/publisher>  <http://www.wikidata.org/entity/Q37033> ;
+        <https://schema.org/url>        "https://www.w3.org/TR/skos-reference/" .
+
+<https://www.xing.com/profile/Ewa_Sadowicz>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ewa Sadowicz" ;
+        <https://schema.org/familyName>
+                "Sadowicz" ;
+        <https://schema.org/givenName>  "Ewa" ;
+        <https://schema.org/honorificPrefix>
+                "" .
+
+<https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister>
+        a                               <https://bmake.th-brandenburg.de/module/Lecturer> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Prof. Dr. Vera G. Meister" ;
+        <https://schema.org/affiliation>
+                <http://www.wikidata.org/entity/Q1391182> ;
+        <https://schema.org/email>      "vera.meister@th-brandenburg.de" ;
+        <https://schema.org/familyName>
+                "Meister" ;
+        <https://schema.org/givenName>  "Vera G." ;
+        <https://schema.org/honorificPrefix>
+                "Prof. Dr. rer. nat." ;
+        <https://schema.org/honorificSuffix>
+                "" ;
+        <https://schema.org/sameAs>     "http://orcid.org/0000-0002-2780-0222" .
+
+<https://schema.org/duration>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "gibt an, ob sich ein Modul über ein Semester (Regelfall) oder einen davon abweichenden Zeitraum erstreckt"@de , "Duration of a course instance, here measured in semesters."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/CourseInstance> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dauer des Moduls"@de , "duration"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Duration> .
+
+<https://schema.org/bookEdition>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um die Auflage eines Buches zu definieren"@de , "is used to specify the edition of a book"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Auflage eines Buches"@de , "book edition"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://www.xing.com/profile/Hermann_Krallmann>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hermann Krallmann" ;
+        <https://schema.org/familyName>
+                "Krallmann" ;
+        <https://schema.org/givenName>  "Hermann" ;
+        <https://schema.org/honorificPrefix>
+                "Prof. Dr." .
+
+<https://bmake.th-brandenburg.de/module/CompWL_AWIM>
+        a                          <https://schema.org/PropertyValue> ;
+        <https://schema.org/identifier>
+                "Workload" ;
+        <https://schema.org/name>  "Zusammensetzung der Workload" ;
+        <https://schema.org/valueReference>
+                <https://bmake.th-brandenburg.de/module/WL5_AWIM> , <https://bmake.th-brandenburg.de/module/WL4_AWIM> , <https://bmake.th-brandenburg.de/module/WL3_AWIM> , <https://bmake.th-brandenburg.de/module/WL2_AWIM> , <https://bmake.th-brandenburg.de/module/WL1_AWIM> .
+
+<https://bmake.th-brandenburg.de/module/Exam_AWIM>
+        a                          <https://schema.org/ItemList> ;
+        <https://schema.org/identifier>
+                "Exam" ;
+        <https://schema.org/itemListElement>
+                "komplexes Modellierungs- und Entwicklungsprojekt" , "Semesterbegleitende Teilleistungen" ;
+        <https://schema.org/name>  "Studien-/Prüfungsleistungen AWIM" .
+
+<https://bmake.th-brandenburg.de/module/WL5_GPMO>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "selbständige Projektarbeit" ;
+        <https://schema.org/value>  45 .
+
+<https://www.isbn-international.org/978-3738626711>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Allweyer: BPMN 2" ;
+        <https://schema.org/author>    <https://www.xing.com/profile/Thomas_Allweyer> ;
+        <https://schema.org/bookEdition>
+                "3. Auflage" ;
+        <https://schema.org/datePublished>
+                "2015" ;
+        <https://schema.org/headline>  "BPMN 2.0 Business Process Model and Notation – Einführung in den Standard der Geschäftsprozessmodellierung." .
+
+<https://bmake.th-brandenburg.de/module/Curr_WIB_AWIM>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "Zuordnung zum Curriculum" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, Anlage 1" ;
+        <https://schema.org/targetDescription>
+                "Wirtschaftsinformatik Bachelor, 4. Semester (Vollzeitmodus)" ;
+        <https://schema.org/targetName>
+                "WI Ba, 4. Semester" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://schema.org/publisher>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um auf eine Organisation als Herausgeber eines Werks zu verweisen"@de , "Is used to idicate an organization as publisher of a creative work."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/CreativeWork> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Herausgeber"@de , "publisher"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Organization> .
+
+<http://www.wikidata.org/entity/Q71488>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Friedemann Schulz von Thun" ;
+        <https://schema.org/familyName>
+                "Schulz von Thun" ;
+        <https://schema.org/givenName>  "Friedemann" ;
+        <https://schema.org/honorificPrefix>
+                "Dr. oec. h. c." .
+
+<https://resources.sei.cmu.edu/library/author.cfm?authorID=3955>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sandra Shrum" ;
+        <https://schema.org/familyName>
+                "Shrum" ;
+        <https://schema.org/givenName>  "Sandra" ;
+        <https://schema.org/honorificPrefix>
+                "" .
+
+<https://bmake.th-brandenburg.de/module/WL2_PMSK>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Eigenstudium" ;
+        <https://schema.org/value>  90 .
+
+<https://bmake.th-brandenburg.de/module/SWS_WIB_AWIM>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "SWS" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, Anlage 1" ;
+        <https://schema.org/targetDescription>
+                "Umfang des Moduls in Semesterwochenstunden" ;
+        <https://schema.org/targetName>
+                "4 SWS" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://schema.org/educationalUse>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "gibt die Verwendbarkeit des Moduls im Kontext des gesamten Curriculums an"@de , "possible usage of an educational coures, e. g. beeing a prerequisite for another course"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Verwendbarkeit des Moduls"@de , "educational use"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://www.researchgate.net/profile/Andreas_Gadatsch>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Andreas Gadatsch" ;
+        <https://schema.org/familyName>
+                "Gadatsch" ;
+        <https://schema.org/givenName>  "Andreas" ;
+        <https://schema.org/honorificPrefix>
+                "Prof. Dr." .
+
+<https://schema.org/Course>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "zentrle Klasse für die Module eines universitären Studiengangs, die in einem Modulkatalog beschrieben werden"@de , "The class of educational courses at a university which shall be described in the module catalog."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Modul"@de , "Course"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/CreativeWork> .
+
+<https://www.xing.com/profile/Jakob_Freund>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Jakob Freund" ;
+        <https://schema.org/familyName>
+                "Freund" ;
+        <https://schema.org/givenName>  "Jakob" .
+
+<https://schema.org/CourseInstance>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "die konkrete Durchführung eines Moduls in einer bestimmten Form, zu einer bestimmten Zeit, an einem bestimmten Ort"@de , "An instance of a Course which is distinct from other instances because it is offered at a different time or location or through different media or modes of study or to a specific section of students."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lehrveranstaltung"@de , "Course Instance"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/Event> .
+
+<https://bmake.th-brandenburg.de/module/Grade_WIB_AWIM>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "Gewichtung der Note" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, § 13" ;
+        <https://schema.org/targetDescription>
+                "Gewichtungsanteile der Note im Hinblick auf die spezifische Fachnote (1/3), den Mittelwert aller Fachnoten (3,33 %) sowie die Abschlussnote (2,67 %)" ;
+        <https://schema.org/targetName>
+                "1/3 der Fachnote, 3,33 % des Mittelwerts aller Modulnoten, 2,67 % der Abschlussnote" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://schema.org/honorificPrefix>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "voranzustellender Ehrentitel einer Person, z. B. Prof. Dr."@de , "the honorific prefix of a person, e. g. Prof., Dr."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "vorangestellter Ehrentitel"@de , "honorific prefix"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://schema.org/coursePrerequisites>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Wird verwendet, um allgemeine Voraussetzungen für ein Modul textuell zu definieren."@de , "Is used to relate an educational course to general prerequisites of the course in textual form."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "allgemeine Voraussetzungen"@de , "general course prerequisites"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://schema.org/targetDescription>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "gibt eine Kurzbeschreibung  der hier verwendeten Vorgabe aus dem Ausrichtungsrahmen, z. B. Kurzbeschreibung eines Studiengangs, zu dem das Modul gehört"@de , "The description of a node in an established educational framework."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/AlignmentObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Beschreibung der Vorgabe"@de , "target description"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<http://www.wikidata.org/entity/Q1662502>
+        a                               <https://schema.org/Organization> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "CMMI Institute" ;
+        <https://schema.org/legalName>  "CMMI Institute - An ISACA Enterprise" ;
+        <https://schema.org/url>        "https://cmmiinstitute.com/" .
+
+<https://schema.org/Event>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Oberklasse für die konkreten Modulinstanzen, die als Veranstaltungen mit zeitlichen Restriktionen anzusehen sind"@de , "Mainly used for identifying course instances."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Veranstaltung"@de , "Event"@en .
+
+<https://bmake.th-brandenburg.de/module/Content_AWIM>
+        a                          <https://schema.org/ItemList> ;
+        <https://schema.org/identifier>
+                "Content" ;
+        <https://schema.org/itemListElement>
+                "5) RDF – Assoziative Netze und Themennetze, Faktennetze und Ontologien, Spezifikation von Anforderungen, RDF-Datenmodell, Disambiguierung von Entitäten, Graph-Serialisierung mit RDF-Turtle, Typisierung von Entitäten" , "4) SKOS – Grundbegriffe der Wissensmodellierung, Wissensdomänen und ihre Zugänglichkeit, Einführung und Quellen von SKOS, SKOS Keywords für Klassen, Attribute und semantische Relationen, Modellierungstools" , "3) DMN 1.1 – Anwendungsfälle für fachliche Regeln, Alternativen der technischen Umsetzung von Regeln, DMN Decision Requirement Diagrams, DMN Entscheidungslogik und -syntax, Tool-basierte Implementierungen von DMN-Entscheidungen" , "2) CMMN 1.1 – Elemente zur Planung der Fallbearbeitung, weitere CMMN-Elemente, Benutzeroberfläche eines Case-Management-Tools, beispielhafte Modellbeschreibungen, Tool-Support für CMMN." , "1) BPMN 2.0 – Wiederholung und Vertiefung: Analyse und Interpretation von Mustern zur Ausnahmebehandlung, von Throw-Catch-Pattern, von Mustern zur Mehrfach-instanziierung, von komplexen Prozessmodellen und ihrer Varianten" ;
+        <https://schema.org/name>  "Inhalt AWIM" .
+
+<https://schema.org/inLanguage>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Lehrsprache(n) eines Moduls"@de , "The language of an educational course."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lehrsprache"@de , "in language"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Language> .
+
+<https://www.isbn-international.org/9783865811998>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Meadows: Grenzen des Denkens" ;
+        <https://schema.org/author>    <http://www.wikidata.org/entity/Q271226> ;
+        <https://schema.org/bookEdition>
+                "" ;
+        <https://schema.org/datePublished>
+                "2010" ;
+        <https://schema.org/headline>  "Die Grenzen des Denkens - Wie wir sie mit System erkennen und überwinden können" ;
+        <https://schema.org/url>       "https://www.weltbild.de/media/txt/pdf/9783865811998-023644773-die-grenzen-des-denkens.pdf" .
+
+<https://www.linkedin.com/in/kanwalrai>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Rai Kanwal" ;
+        <https://schema.org/familyName>
+                "Kanwal" ;
+        <https://schema.org/givenName>  "Rai" ;
+        <https://schema.org/honorificPrefix>
+                "" .
+
+<https://bmake.th-brandenburg.de/module/TF1_AAIT>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Vorlesung" ;
+        <https://schema.org/value>  30 .
+
+<https://bmake.th-brandenburg.de/module/TF1_GPMO>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Vorlesung" ;
+        <https://schema.org/value>  30 .
+
+<https://schema.org/datePublished>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "verweist auf das Datum der Veröffentlichung eines Werks"@de , "is used to specify a publishing date for a creative work"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/CreativeWork> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Veröffentlichungsdatum"@de , "date published"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Date> .
+
+<https://schema.org/isBasedOn>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Wird verwendet, um anzuzeigen, auf welchen anderen Modulen ein Modul basiert."@de , "Is used to show on which other modules a module is based."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "basiert auf"@de , "is based on"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Course> .
+
+<https://bmake.th-brandenburg.de/module/Lecturer>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Klasse für Personen, die für Module verantwortlich zeichnen und für Lehrende in konkreten Veranstaltungen"@de , "Class for person accountable for courses and instructors."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://bmake.th-brandenburg.de/module/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lehrende"@de , "Lecturer"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/Person> .
+
+<https://bmake.th-brandenburg.de/module/TF2_SYSA>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Übung" ;
+        <https://schema.org/value>  30 .
+
+<https://bmake.th-brandenburg.de/module/WIB_AWIM>
+        a                               <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Angewandte Wissensmodellierung" ;
+        <https://bmake.th-brandenburg.de/module/about_Content>
+                <https://bmake.th-brandenburg.de/module/Content_AWIM> ;
+        <https://bmake.th-brandenburg.de/module/about_Exam>
+                <https://bmake.th-brandenburg.de/module/Exam_AWIM> ;
+        <https://bmake.th-brandenburg.de/module/about_LResults>
+                <https://bmake.th-brandenburg.de/module/LResults_AWIM> ;
+        <https://bmake.th-brandenburg.de/module/addProp_CompWL>
+                <https://bmake.th-brandenburg.de/module/CompWL_AWIM> ;
+        <https://bmake.th-brandenburg.de/module/addProp_TeachingForms>
+                <https://bmake.th-brandenburg.de/module/TeachingForms_AWIM> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_Curr>
+                <https://bmake.th-brandenburg.de/module/Curr_WIB_AWIM> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_Grade>
+                <https://bmake.th-brandenburg.de/module/Grade_WIB_AWIM> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_ModuleType>
+                <https://bmake.th-brandenburg.de/module/ModuleType_WIB_AWIM> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_SWS>
+                <https://bmake.th-brandenburg.de/module/SWS_WIB_AWIM> ;
+        <https://schema.org/AWIM>       "AWIM" ;
+        <https://schema.org/accountablePerson>
+                <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister> ;
+        <https://schema.org/citation>   <http://www.omg.org/spec/DMN/1.1/PDF> , <https://www.omg.org/spec/BPMN/2.0.2/PDF> , <http://www.omg.org/spec/CMMN/1.1/PDF> , <https://www.isbn-international.org/978-3-446-45054-7> , <https://www.w3.org/TR/rdf11-primer/> , <https://www.w3.org/TR/skos-reference/> , <https://www.isbn-international.org/1502789647> ;
+        <https://schema.org/comment>    "" ;
+        <https://schema.org/datePublished>
+                "2018-06-01" ;
+        <https://schema.org/educationalCredentialAwarded>
+                "5" ;
+        <https://schema.org/educationalUse>
+                "" ;
+        <https://schema.org/hasCourseInstance>
+                <https://bmake.th-brandenburg.de/module/So18_AWIM> ;
+        <https://schema.org/inLanguage>
+                "en" , "de" ;
+        <https://schema.org/interactivityType>
+                "Werkzeugtutorials und -präsentationen" , "Individuelle Projektarbeit" , "Praktische Übungen und Konsultationen" , "Video-Vorlesungen" , "Seminaristische Vorlesungen" , "Studentische Präsentationen" ;
+        <https://schema.org/isBasedOn>  <https://bmake.th-brandenburg.de/module/WIB_GPMO> ;
+        <https://schema.org/learningResourceType>
+                "Übung" , "Vorlesung" , "Projekt" ;
+        <https://schema.org/name>       "Angewandte Wissensmodellierung"@de , "Applied Knowledge Engineering"@en ;
+        <https://schema.org/timeRequired>
+                "PT150H" ;
+        <https://schema.org/url>        "https://wirtschaft.th-brandenburg.de/studium/plaene-und-termine/vorlesungsverzeichnis/vorlesungsverzeichnis-wi-bachelor/wahlpflicht-i-angewandte-wissensmodellierung/" .
+
+<https://bmake.th-brandenburg.de/module/TeachingForms_SYSA>
+        a                          <https://schema.org/PropertyValue> ;
+        <https://schema.org/identifier>
+                "TeachingForms" ;
+        <https://schema.org/name>  "Lehrformen mit Präsenzzeiten in Stunden" ;
+        <https://schema.org/valueReference>
+                <https://bmake.th-brandenburg.de/module/TF2_SYSA> , <https://bmake.th-brandenburg.de/module/TF1_SYSA> .
+
+<https://schema.org/author>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um auf den oder die Autor/in eines Werks zu verweisen"@de , "Is used to idicate a person as author of a creative work."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/CreativeWork> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Autor/in"@de , "author"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                [ <http://www.w3.org/2002/07/owl#unionOf>
+                          ( <https://schema.org/Person> <https://schema.org/Organization> ) ] .
+
+<https://bmake.th-brandenburg.de/module/TF2_GPMO>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Übung" ;
+        <https://schema.org/value>  30 .
+
+<https://schema.org/Organization>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Oberklasse aller Organisationen oder Einrichtungen - wird hier verwendet um die Mitgliedschaft oder Zugehörigkeit einer/s Verantwortlichen oder einer/s Dozent/in zu einer Organisation darzustellen"@de , "general class for organizations - here mainly used for referring the affiliation of persons to organizations"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Organisation/Einrichtung"@de , "Organization"@en .
+
+<https://bmake.th-brandenburg.de/module/TeachingForms_GPMO>
+        a                          <https://schema.org/PropertyValue> ;
+        <https://schema.org/identifier>
+                "TeachingForms" ;
+        <https://schema.org/name>  "Lehrformen mit Präsenzzeiten in Stunden" ;
+        <https://schema.org/valueReference>
+                <https://bmake.th-brandenburg.de/module/TF2_GPMO> , <https://bmake.th-brandenburg.de/module/TF1_GPMO> .
+
+<https://schema.org/affiliation>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um die Mitgliedschaft oder Zugehörigkeit einer Person zu einer Organisation darzustellen"@de , "Is used to relate a person to an organization."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Zugehörigkeit/Mitgliedschaft"@de , "affiliation"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Organization> .
+
+<https://schema.org/sameAs>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um eine Ressource mit einer eindeutigen URL zu verknüpfen, z. B. einer Wikidata-Id."@de , "specifies an identifying URL to a resource"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Thing> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "dasselbe"@de , "same as"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/URL> .
+
+<https://www.th-brandenburg.de/mitarbeiterseiten/fbw/dietmar-wikarski>
+        a                               <https://bmake.th-brandenburg.de/module/Lecturer> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Prof. Dr. Dietmar Wikarski" ;
+        <https://schema.org/affiliation>
+                <http://www.wikidata.org/entity/Q1391182> ;
+        <https://schema.org/email>      "dietmar.wikarski@th-brandenburg.de" ;
+        <https://schema.org/familyName>
+                "Wikarski" ;
+        <https://schema.org/givenName>  "Dietmar" ;
+        <https://schema.org/honorificPrefix>
+                "Prof. Dr. rer. nat." ;
+        <https://schema.org/honorificSuffix>
+                "" ;
+        <https://schema.org/sameAs>     "https://www.researchgate.net/profile/Dietmar_Wikarski" .
+
+<https://bmake.th-brandenburg.de/module/about_Exam>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um auf die Liste von Prüfungsleistungen eines Moduls zu referenzieren"@de , "is used to reference a list of required examinations for a module"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://bmake.th-brandenburg.de/module/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Prüfungsleistungen"@de , "examination requirements"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+                <https://schema.org/about> .
+
+<https://bmake.th-brandenburg.de/module/Grade_WIB>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "Gewichtung der Note" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, § 13" ;
+        <https://schema.org/targetDescription>
+                "Gewichtungsanteile der Note im Hinblick auf die spezifische Fachnote (1/3), den Mittelwert aller Fachnoten (3,33 %) sowie die Abschlussnote (2,67 %)" ;
+        <https://schema.org/targetName>
+                "1/3 der Fachnote, 3,33 % des Mittelwerts aller Modulnoten, 2,67 % der Abschlussnote" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<http://www.wikidata.org/entity/Q1117939>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Helmut Balzert" ;
+        <https://schema.org/familyName>
+                "Balzert" ;
+        <https://schema.org/givenName>  "Helmut" ;
+        <https://schema.org/honorificPrefix>
+                "Prof. Dr." .
+
+<http://doi.org/10.1007/978-3-8348-2428-8>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Gadatsch: GPM" ;
+        <https://schema.org/author>    <https://www.researchgate.net/profile/Andreas_Gadatsch> ;
+        <https://schema.org/bookEdition>
+                "7. Auflage" ;
+        <https://schema.org/datePublished>
+                "2012" ;
+        <https://schema.org/headline>  "Grundkurs Geschäftsprozess-Management – Methoden und Werkzeuge für die IT-Praxis." .
+
+<https://www.isbn-international.org/978-3-8274-1161-7>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Balzert: SW-Technik, Bd. 2" ;
+        <https://schema.org/author>    <http://www.wikidata.org/entity/Q1117939> ;
+        <https://schema.org/bookEdition>
+                "2" ;
+        <https://schema.org/datePublished>
+                "2008" ;
+        <https://schema.org/headline>  "Lehrbuch der Softwaretechnik: Softwaremanagement" ;
+        <https://schema.org/url>       "https://www.springer.com/de/book/9783827411617" .
+
+<https://www.isbn-international.org/978-3499174896>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Schulz von Thun: Miteinander reden" ;
+        <https://schema.org/author>    <http://www.wikidata.org/entity/Q71488> ;
+        <https://schema.org/bookEdition>
+                "48" ;
+        <https://schema.org/datePublished>
+                "2010" ;
+        <https://schema.org/headline>  "Miteinander Reden, Teil 1-3" ;
+        <https://schema.org/url>       "https://www.schulz-von-thun.de/veroeffentlichungen/miteinander-reden" .
+
+<https://schema.org/additionalProperty>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "generische Superproperty - wird hier verwendet, um die kapazitätsbezogene Aufteilung eines Moduls in Lehrformen oder verschiedene Lehrarrangements darzustellen"@de , "generic superproperty - here used to represent the capacity-related division of a module into teaching forms or various teaching arrangements"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Thing> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "weitere Eigenschaft"@de , "additional property"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/PropertyValue> .
+
+<https://bmake.th-brandenburg.de/module/Curr_WIB>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "Zuordnung zum Curriculum" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, Anlage 1" ;
+        <https://schema.org/targetDescription>
+                "Wirtschaftsinformatik Bachelor, 1. Semester (Vollzeitmodus)" ;
+        <https://schema.org/targetName>
+                "WI Ba, 1. Semester" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://bmake.th-brandenburg.de/module/Note_WIB_PMSK>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "Gewichtung der Note" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, § 13" ;
+        <https://schema.org/targetDescription>
+                "Gewichtungsanteile der Note im Hinblick auf die spezifische Fachnote (1/3), den Mittelwert aller Fachnoten (3,33 %) sowie die Abschlussnote (2,67 %)" ;
+        <https://schema.org/targetName>
+                "1/3 der Fachnote, 3,33 % des Mittelwerts aller Modulnoten, 2,67 % der Abschlussnote" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://bmake.th-brandenburg.de/module/WIB_INFM>
+        a                          <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Informationsmanagement" ;
+        <https://schema.org/courseCode>
+                "INFM" ;
+        <https://schema.org/name>  "Information Management"@en , "Informationsmanagement"@de ;
+        <https://schema.org/url>   "https://wirtschaft.th-brandenburg.de/studium/plaene-und-termine/vorlesungsverzeichnis/vorlesungsverzeichnis-wi-bachelor/informationsmanagement/" .
+
+<https://bmake.th-brandenburg.de/module/CompWL_AAIT>
+        a                          <https://schema.org/PropertyValue> ;
+        <https://schema.org/identifier>
+                "Workload" ;
+        <https://schema.org/name>  "Aufteilung der Workload in Stunden" ;
+        <https://schema.org/valueReferencey>
+                <https://bmake.th-brandenburg.de/module/WL5_AAIT> , <https://bmake.th-brandenburg.de/module/WL4_AAIT> , <https://bmake.th-brandenburg.de/module/WL3_AAIT> , <https://bmake.th-brandenburg.de/module/WL2_AAIT> , <https://bmake.th-brandenburg.de/module/WL1_AAIT> .
+
+<http://www.wikidata.org/entity/Q271226>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Donella Meadows" ;
+        <https://schema.org/familyName>
+                "Meadows" ;
+        <https://schema.org/givenName>  "Donella" ;
+        <https://schema.org/honorificPrefix>
+                "Dr." .
+
+<https://bmake.th-brandenburg.de/module/Exam_AAIT>
+        a                          <https://schema.org/ItemList> ;
+        <https://schema.org/identifier>
+                "Exam" ;
+        <https://schema.org/itemListElement>
+                "Dokumentation und Präsentation" , "Projektarbeit mit Implementierung" ;
+        <https://schema.org/name>  "Studien-/Prüfungsleistungen AAIT" .
+
+<https://bmake.th-brandenburg.de/module/WL4_AWIM>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Selbststudium" ;
+        <https://schema.org/value>  20 .
+
+<https://resources.sei.cmu.edu/library/author.cfm?authorID=4111>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mike Phillips" ;
+        <https://schema.org/familyName>
+                "Phillips" ;
+        <https://schema.org/givenName>  "Mike" ;
+        <https://schema.org/honorificPrefix>
+                "" .
+
+<https://bmake.th-brandenburg.de/module/WL1_AWIM>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Präsenzvorlesungen" ;
+        <https://schema.org/value>  30 .
+
+<https://bmake.th-brandenburg.de/module/Exam_GPMO>
+        a                          <https://schema.org/ItemList> ;
+        <https://schema.org/identifier>
+                "Exam" ;
+        <https://schema.org/itemListElement>
+                "Abschlussklausur" , "Semesterbegleitende Teilleistungen" , "Projekt" ;
+        <https://schema.org/name>  "Studien-/Prüfungsleistungen GPMO" .
+
+<https://bmake.th-brandenburg.de/module/Curr_WIB_AAIT>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "Zuordnung zum Curriculum" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, Anlage 1" ;
+        <https://schema.org/targetDescription>
+                "Wirtschaftsinformatik Bachelor, 5. Semester (Vollzeitmodus)" ;
+        <https://schema.org/targetName>
+                "WI Ba, 5. Semester" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://schema.org/email>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "E-Mail-Adresse einer Person"@de , "the email of a person"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "E-Mail"@de , "email"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://resources.sei.cmu.edu/library/author.cfm?authorID=3369>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Karen Richter" ;
+        <https://schema.org/familyName>
+                "Richter" ;
+        <https://schema.org/givenName>  "Karen" ;
+        <https://schema.org/honorificPrefix>
+                "" .
+
+<https://www.omg.org/spec/BPMN/2.0.2/PDF>
+        a                               <https://schema.org/DigitalDocument> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Silver: BPMN - Method & Style" ;
+        <https://schema.org/datePublished>
+                "2013-12-09" ;
+        <https://schema.org/headline>   "Business Process Model And Notation (BPMN), V. 2.0.2" ;
+        <https://schema.org/publisher>  <http://www.wikidata.org/entity/Q252733> ;
+        <https://schema.org/url>        "https://www.omg.org/spec/BPMN/2.0.2/PDF" .
+
+<https://schema.org/hasCourseInstance>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um auf eine konkrete Durchführung eines Moduls zu einem bestimmten Zeitpunkt, in einer bestimmten Form bzw. an einem Ort zu referenzieren"@de , "Is used to relate an educational course to its instances."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/CreativeWork> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "hat Kursinstanz"@de , "has course instance"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/CourseInstance> .
+
+<https://bmake.th-brandenburg.de/module/WL5_AWIM>
+        a                            <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>    "selbständige Projektarbeit" ;
+        <https://schema.org/valued>  70 .
+
+<https://schema.org/educationalAlignment>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Superproperty für die Referenzierung auf diverse formale bzw. rechtliche Rahmenvorgaben eines Moduls. Rahmenvorgaben können z. B. Prüfungsordnungen sein."@de , "suerproperty to relate an educational course to its alignment objects with respect to educational frameworks."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "edukative Ausrichtung"@de , "educational alignment"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/AlignmentObject> .
+
+<https://bmake.th-brandenburg.de/module/SWS_WIB_AAIT>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "SWS" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, Anlage 1" ;
+        <https://schema.org/targetDescription>
+                "Umfang des Moduls in Semesterwochenstunden" ;
+        <https://schema.org/targetName>
+                "4 SWS" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://schema.org/instructor>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um den oder die DozentInnen einer konkreten Kursinstanz zu referenzieren"@de , "Is used to relate an educational course instance to a lecturer or instructor providing it."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/CourseInstance> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dozent/in"@de , "instructor"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Person> .
+
+<https://bmake.th-brandenburg.de/module/TF1_PMSK>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Vorlesung" ;
+        <https://schema.org/value>  30 .
+
+<https://schema.org/honorificSuffix>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "dem Namen nachfolgender Ehrentitel einer Person, z. B. BSc., MBA"@de , "the honorific suffix of a person, e. g. BSc., MBA"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "dem Namen nachfolgender Ehrentitel"@de , "honorific suffix"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://www.linkedin.com/in/navneetbhushan>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Navneet Bhushan" ;
+        <https://schema.org/familyName>
+                "Bhushan" ;
+        <https://schema.org/givenName>  "Navneet" ;
+        <https://schema.org/honorificPrefix>
+                "" .
+
+<https://bmake.th-brandenburg.de/module/Grade_WIB_AAIT>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "Gewichtung der Note" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, § 13" ;
+        <https://schema.org/targetDescription>
+                "Gewichtungsanteile der Note im Hinblick auf die spezifische Fachnote (1/3), den Mittelwert aller Fachnoten (3,33 %) sowie die Abschlussnote (2,67 %)" ;
+        <https://schema.org/targetName>
+                "1/3 der Fachnote, 3,33 % des Mittelwerts aller Modulnoten, 2,67 % der Abschlussnote" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://schema.org/comment>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um ergänzende, besondere Bemerkungen zu einem Modul zu hinterlegen"@de , "General datatype property for (additional) comments regarding a resource."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bemerkung"@de , "comment"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://www.w3.org/TR/rdf11-primer/>
+        a                               <https://schema.org/DigitalDocument> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "RDF 1.1" ;
+        <https://schema.org/datePublished>
+                "2014" ;
+        <https://schema.org/headline>   "Resource Description Framework 1.1 (RDF)" ;
+        <https://schema.org/publisher>  <http://www.wikidata.org/entity/Q37033> ;
+        <https://schema.org/url>        "https://www.w3.org/TR/rdf11-primer/" .
+
+<https://bmake.th-brandenburg.de/module/about_LResults>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um die erwarteten Lernergebnisse eines Moduls zu referenzieren"@de , "is used to reference a list of expected learning results for a module"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://bmake.th-brandenburg.de/module/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "learning results"@en , "Lernergebnisse"@de ;
+        <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+                <https://schema.org/about> .
+
+<https://bmake.th-brandenburg.de/module/Content_AAIT>
+        a                          <https://schema.org/ItemList> ;
+        <https://schema.org/identifier>
+                "Content" ;
+        <https://schema.org/itemListElement>
+                "6) CMMI ausgewählte Prozessgebiete 2: PP – Project Planning, CM – Configuration Management, ATM – Acquisition Technical Management" , "5) Die Auswahlmethode Analytic Hierarchy Process: Kurzbeschreibung und AHP-Tutorial, AHP Beispiele, Motivation für den Einsatz von AHP, AHP-Quellen, Tools für die Anwendung von AHP" , "4) Operationalisierung von Specific Practices: Fallstudie zur Anschaffung eines CRM-Systems, Leitfragen für die Operationalisierung von Specific Practices, Erhebung von Kundenanforderungen nach CMMI-ACQ ARD, Identifika-tion potenzieller Lieferanten nach CMMI-ACQ SSAD" , "3)\tCMMI ausgewählte Prozessgebiete 1: Beschaffungs-gegenstände und InitiaTFragen, Beziehungen zwischen den Prozessgebieten, ARD – Acquisition Requirements Development, REQM – Requirements Management, SSAD – Solicitation and Supplier Agreement Development" , "2) CMMI-ACQ – Grundlagen: Herkunft, Strukturmodell, Prozessgebiete, Fähigkeits- und Reifegrade, Begutachtungsprozesse, CMMI User Stories" , "1) Projektbezogene IT-Management-Frameworks: Differenzierung Projekt-Definitionen, Bedeutung von Frameworks, Überblick über Projektbezogene IT-Management-Frameworks, Argumente für den Einsatz von CMMI-ACQ, Tools für das Projektmanagement" ;
+        <https://schema.org/name>  "Inhalt AAIT" .
+
+<https://schema.org/educationalFramework>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Bildungs- bzw. Qualifikationsrahmen auf den sich ein Ausrichtungsobjekt bezieht"@de , "educational framework to which an alignment object of a course is aligned to, e. g. study regulation"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/AlignmentObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bildungs-/Qualifikationsrahmen"@de , "educational framework"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://schema.org/Intangible>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Oberklasse für alle immatieriellen bzw. nicht greifbaren Ressourcen"@de , "General class for intangible entities. "@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Immaterielles"@de , "Intangible"@en .
+
+<https://bmake.th-brandenburg.de/module/LResults_SYSA>
+        a                          <https://schema.org/ItemList> ;
+        <https://schema.org/identifier>
+                "Results" ;
+        <https://schema.org/itemListElement>
+                "Sie können die nötigen Implementierungsgegenstände benennen (beispielsweise Einführung von Standardsoftware oder Neuentwicklung einer Software oder Mischform aus beidem)." , "Sie können deren Problemfelder identifizieren und eine Neukonzeption entwerfen." , "Studierende sind in der Lage, in einer Organisation gegenwärtige Prozessstrukturen zu sichten." ;
+        <https://schema.org/name>  "Lernergebnisse SYSA" .
+
+<https://www.isbn-international.org/978-1500555788>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kuebler: Technical Impact" ;
+        <https://schema.org/author>    <https://www.linkedin.com/in/alkuebler> ;
+        <https://schema.org/bookEdition>
+                "4th ed." ;
+        <https://schema.org/datePublished>
+                "2014" ;
+        <https://schema.org/headline>  "Technical Impact – Making your Information Technology Effective and Keeping it That Way" ;
+        <https://schema.org/url>       "" .
+
+<https://schema.org/Duration>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Hier für die Angabe der Workload für unterschiedliche Lehr-Lernaktivitäten sowie die Gesamtdauer einer Lehrveranstaltung. Die Angabe folgt dem ISO 8601 Format für Zeiträume."@de , "Here used for specifying the duration of an educational video, follows the ISO 8601 duration format."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dauer"@de , "Duration"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/Intangible> .
+
+<https://schema.org/pageEnd>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um die letzte Seite eines Artikels in einem Journal oder einem Sammelband zu definieren"@de , "is used to specify the last page of an article in a journal or volume"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Article> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "letzte Seite"@de , "page end"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://bmake.th-brandenburg.de/module/LResults_GPMO>
+        a                          <https://schema.org/ItemList> ;
+        <https://schema.org/identifier>
+                "Results" ;
+        <https://schema.org/itemListElement>
+                "Sie können Software-Werkzeuge zum Prozessmanagement in praktischen Fragestellungen bzw. Projekten gezielt und systematisch einsetzen." , "Sie sammeln Erfahrungen in der Planung und Durchführung von Projekten zur Prozessmodellierung nach KSA und BPMN 2.0." , "Die Studierenden beherrschen die Grundlagen der von der OMG spezifizierten Standard-Notation zur Modellierung von Geschäftsprozessen BPMN 2.0." , "Sie verfügen über Grundkompetenzen der Analyse und Modellierung von Geschäfts- und Kooperationsprozessen im Praxisfeld." , "Die Studierenden verstehen die Anforderungen und Problemfelder im Management von Geschäfts- und Kooperationsprozessen." ;
+        <https://schema.org/name>  "Lernergebnisse GPMO" .
+
+<https://www.th-brandenburg.de/mitarbeiterseiten/fbw/andreas-johannsen>
+        a                               <https://bmake.th-brandenburg.de/module/Lecturer> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Prof. Dr. Andreas Johannsen" ;
+        <https://schema.org/affiliation>
+                <http://www.wikidata.org/entity/Q1391182> ;
+        <https://schema.org/email>      "andreas.johannsen@th-brandenburg.de" ;
+        <https://schema.org/familyName>
+                "Johannsen" ;
+        <https://schema.org/givenName>  "Andreas" ;
+        <https://schema.org/honorificPrefix>
+                "Prof. Dr. rer. oec." ;
+        <https://schema.org/honorificSuffix>
+                "" ;
+        <https://schema.org/sameAs>     <https://www.researchgate.net/profile/Andreas_Johannsen> .
+
+<https://schema.org/Person>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Oberklasse aller Personen - wird hier verwendet, um Verantwortliche und DozentInnen von Kursen sowie Autoren von Modulliteratur zu referenzieren"@de , "Mainly used for identifying lecturers and accountable persons for courses."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Person"@de , "Person"@en .
+
+<https://schema.org/DigitalDocument>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Klasse für digitale Dokumente, die als Literatur zu Modulen empfohlen werden"@de , "the class of digital documents used as literature in a course."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Digitales Dokument"@de , "Digital Document"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/CreativeWork> .
+
+<https://www.isbn-international.org/0-321-71151-3>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "CMMI for Acq. - Guidelines" ;
+        <https://schema.org/author>    <https://resources.sei.cmu.edu/library/author.cfm?authorID=4111> , <https://resources.sei.cmu.edu/library/author.cfm?authorID=3369> , <https://resources.sei.cmu.edu/library/author.cfm?authorID=3955> , <https://resources.sei.cmu.edu/library/author.cfm?authorID=4601> ;
+        <https://schema.org/bookEdition>
+                "2nd ed." ;
+        <https://schema.org/datePublished>
+                "2011" ;
+        <https://schema.org/headline>  "CMMI for Acquisition – Guidelines for Improving the Acquisition of Products and Services" ;
+        <https://schema.org/url>       "https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=31042" .
+
+<https://bmake.th-brandenburg.de/module/WIB_AAIT>
+        a                               <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Auswahl & Anpassung IT-Dienste" ;
+        <https://bmake.th-brandenburg.de/module/about_Content>
+                <https://bmake.th-brandenburg.de/module/Content_AAIT> ;
+        <https://bmake.th-brandenburg.de/module/about_Exam>
+                <https://bmake.th-brandenburg.de/module/Exam_AAIT> ;
+        <https://bmake.th-brandenburg.de/module/about_LResults>
+                <https://bmake.th-brandenburg.de/module/LResults_AAIT> ;
+        <https://bmake.th-brandenburg.de/module/addProp_CompWL>
+                <https://bmake.th-brandenburg.de/module/CompWL_AAIT> ;
+        <https://bmake.th-brandenburg.de/module/addProp_TeachingForms>
+                <https://bmake.th-brandenburg.de/module/TeachingForms_AAIT> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_Curr>
+                <https://bmake.th-brandenburg.de/module/Curr_WIB_AAIT> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_Grade>
+                <https://bmake.th-brandenburg.de/module/Grade_WIB_AAIT> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_ModuleType>
+                <https://bmake.th-brandenburg.de/module/ModuleType_WIB_AAIT> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_SWS>
+                <https://bmake.th-brandenburg.de/module/SWS_WIB_AAIT> ;
+        <https://schema.org/AAIT>       "AAIT" ;
+        <https://schema.org/accountablePerson>
+                <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister> ;
+        <https://schema.org/citation>   <http://doi.org/10.1007/b97668> , <https://www.isbn-international.org/978-1500555788> , <https://www.isbn-international.org/0-321-71151-3> , <https://www.isbn-international.org/978-3-446-43893-4> , <http://www.wikidata.org/entity/Q428361> ;
+        <https://schema.org/comment>    "Austauschworkshop oder Poster Session in englischer Sprache in Kooperation mit dem Studiengang Ökonomische Kybernetik der ATFred Nobel University Dnipro (Ukraine); Praxisvorträge von Unternehmensvertretern" ;
+        <https://schema.org/datePublished>
+                "2018-06-01" ;
+        <https://schema.org/educationalCredentialAwarded>
+                "5" ;
+        <https://schema.org/educationalUse>
+                "Das Modul kann auch im Masterstudiengang Informatik (dortiger Titel: Softwareauswahl und -bewertung) entsprechend der geltenden SPO verwendet werden." ;
+        <https://schema.org/hasCourseInstance>
+                <https://bmake.th-brandenburg.de/module/Wi18_AAIT> ;
+        <https://schema.org/inLanguage>
+                "de" , "en" ;
+        <https://schema.org/interactivityType>
+                "Übungen zur Anwendung von Frameworks und Methoden" , "Studentische Präsentationen" , "Konsultationen und Coaching" , "- Teambasierte Projektarbeit mit Meilensteinmeetings" , "Workshops zu Methoden und Werkzeugen" , "Seminaristische Vorlesungen" , "Videovorlesungen" ;
+        <https://schema.org/isBasedOn>  <https://bmake.th-brandenburg.de/module/WIB_SWEN> , <https://bmake.th-brandenburg.de/module/WIB_MGTO> , <https://bmake.th-brandenburg.de/module/WIB_INFM> ;
+        <https://schema.org/learningResourceType>
+                "Übung" , "Projekt" , "Vorlesung" ;
+        <https://schema.org/name>       "Auswahl und Anpassung von IT-Diensten"@de , "Selection and Customizing of IT Services"@en ;
+        <https://schema.org/timeRequired>
+                "PT150H" ;
+        <https://schema.org/url>        "https://wirtschaft.th-brandenburg.de/studium/plaene-und-termine/vorlesungsverzeichnis/vorlesungsverzeichnis-wi-bachelor/auswahl-und-anpassung-von-it-diensten/" .
+
+<http://www.omg.org/spec/CMMN/1.1/PDF>
+        a                               <https://schema.org/DigitalDocument> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "CMMN 1.1" ;
+        <https://schema.org/datePublished>
+                "2016" ;
+        <https://schema.org/headline>   "CMMN 1.1 – Technische Spezifikation" ;
+        <https://schema.org/publisher>  <http://www.wikidata.org/entity/Q252733> ;
+        <https://schema.org/url>        "http://www.omg.org/spec/CMMN/1.1/PDF" .
+
+<https://bmake.th-brandenburg.de/module/CompWL_PMSK>
+        a                          <https://schema.org/PropertyValue> ;
+        <https://schema.org/identifier>
+                "Workload" ;
+        <https://schema.org/name>  "Aufteilung der Workload in Stunden" ;
+        <https://schema.org/valueReference>
+                <https://bmake.th-brandenburg.de/module/WL2_PMSK> , <https://bmake.th-brandenburg.de/module/WL1_PMSK> .
+
+<https://bmake.th-brandenburg.de/module/Exam_PMSK>
+        a                          <https://schema.org/ItemList> ;
+        <https://schema.org/identifier>
+                "Exam" ;
+        <https://schema.org/itemListElement>
+                "Klausur (50 %)" , "Hausarbeit mit Präsentation (40 %)" , "Assessment Center Bericht (10 %)" ;
+        <https://schema.org/name>  "Studien-/Prüfungsleistungen PMSK" .
+
+<https://bmake.th-brandenburg.de/module/WIB_GPMO>
+        a                               <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Grundlagen Prozessmodellierung" ;
+        <https://bmake.th-brandenburg.de/module/about_Content>
+                <https://bmake.th-brandenburg.de/module/Content_GPMO> ;
+        <https://bmake.th-brandenburg.de/module/about_Exam>
+                <https://bmake.th-brandenburg.de/module/Exam_GPMO> ;
+        <https://bmake.th-brandenburg.de/module/about_LResults>
+                <https://bmake.th-brandenburg.de/module/LResults_GPMO> ;
+        <https://bmake.th-brandenburg.de/module/addProp_CompWL>
+                <https://bmake.th-brandenburg.de/module/CompWL_GPMO> ;
+        <https://bmake.th-brandenburg.de/module/addProp_TeachingForms>
+                <https://bmake.th-brandenburg.de/module/TeachingForms_GPMO> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_Curr>
+                <https://bmake.th-brandenburg.de/module/Curr_WIB_GPMO> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_Grade>
+                <https://bmake.th-brandenburg.de/module/Grade_WIB_GPMO> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_ModuleType>
+                <https://bmake.th-brandenburg.de/module/ModuleType_WIB_GPMO> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_SWS>
+                <https://bmake.th-brandenburg.de/module/SWS_WIB_GPMO> ;
+        <https://schema.org/accountablePerson>
+                <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister> ;
+        <https://schema.org/citation>   <http://doi.org/10.1007/978-3-8348-2428-8> , <https://www.isbn-international.org/978-3738626711> , <https://www.omg.org/spec/BPMN/2.0.2/PDF> , <https://www.isbn-international.org/978-3-446-45054-7> , <https://www.isbn-international.org/978-0982368114> ;
+        <https://schema.org/comment>    "Praxisprojekt im Hochschul- oder Unternehmensumfeld" ;
+        <https://schema.org/courseCode>
+                "GPMO" ;
+        <https://schema.org/coursePrerequisites>
+                "Grundkenntnisse der Systemanalyse" ;
+        <https://schema.org/datePublished>
+                "2018-06-01" ;
+        <https://schema.org/educationalCredentialAwarded>
+                "5" ;
+        <https://schema.org/educationalUse>
+                "Dient der Vorbereitung darauf aufbauender Veranstaltungen, insbesondere bzgl. Operationalisiserung von Prozessen." ;
+        <https://schema.org/hasCourseInstance>
+                <https://bmake.th-brandenburg.de/module/So18_GPMO> ;
+        <https://schema.org/inLanguage>
+                "de" , "en" ;
+        <https://schema.org/interactivityType>
+                "Studentische Präsentationen" , "Werkzeugtutorials und -präsentationen" , "Seminaristische Vorlesungen" , "Praktische Übungen und Konsultationen" , "Video-Vorlesungen" , "MC Selbsttests" , "Projektarbeit in Gruppen und Kleingruppen" ;
+        <https://schema.org/isBasedOn>  <https://bmake.th-brandenburg.de/module/WIB_SYSA> ;
+        <https://schema.org/learningResourceType>
+                "Vorlesung" , "Projekt" , "Übung" ;
+        <https://schema.org/name>       "Grundlagen der Prozessmodellierung"@de , "Basics of Business Process Modeling"@en ;
+        <https://schema.org/timeRequired>
+                "PT150H" ;
+        <https://schema.org/url>        "https://wirtschaft.th-brandenburg.de/studium/plaene-und-termine/vorlesungsverzeichnis/vorlesungsverzeichnis-wi-bachelor/grundlagen-der-prozessmodellierung/" .
+
+<https://bmake.th-brandenburg.de/module/addProp_CompWL>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um auf die gesamte Workload sowie die Liste von Workload-Elementen eines Moduls zu referenzieren"@de , "is used to reference the comprehensive workload as well as a list of workload elements for a module"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://bmake.th-brandenburg.de/module/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Aufteilung de Workload"@de , "comprehensive workload"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+                <https://schema.org/additionalProperty> .
+
+<https://bmake.th-brandenburg.de/module/Curr_WIB_PMSK>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "Zuordnung zum Curriculum" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, Anlage 1" ;
+        <https://schema.org/targetDescription>
+                "Wirtschaftsinformatik Bachelor, 3. Semester (Vollzeitmodus)" ;
+        <https://schema.org/targetName>
+                "WI Ba, 3. Semester" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://schema.org/citation>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um die Literatur zu einem Modul darzustellen"@de , "Is used to relate an educational course to literature used in the course."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Literatur"@de , "citation"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/CreativeWork> .
+
+<https://bmake.th-brandenburg.de/module/So18_GPMO>
+        a                              <https://schema.org/CourseInstance> ;
+        <https://schema.org/courseMode>
+                "jedes Sommersemester" ;
+        <https://schema.org/duration>  "P0.5Y" ;
+        <https://schema.org/identifier>
+                "GPMO SoSe18" ;
+        <https://schema.org/instructor>
+                <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/dietmar-wikarski> , <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister> .
+
+<https://bmake.th-brandenburg.de/module/TF2_AWIM>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Übung" ;
+        <https://schema.org/value>  30 .
+
+<https://schema.org/itemListElement>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet um die Auflistung von Lernergebnissen, Lerninhalten und Prüfungsformen für ein Modul bereitzustellen"@de , "used for referencing lists of learning outcomes, contents and examinations to an educational course" ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/ItemList> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Element einer Auflistung"@de , "item list element"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://bmake.th-brandenburg.de/module/SWS_WIB>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "SWS" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, Anlage 1" ;
+        <https://schema.org/targetDescription>
+                "Umfang des Moduls in Semesterwochenstunden" ;
+        <https://schema.org/targetName>
+                "4 SWS" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://bmake.th-brandenburg.de/module/SWS_WIB_PMSK>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "SWS" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, Anlage 1" ;
+        <https://schema.org/targetDescription>
+                "Umfang des Moduls in Semesterwochenstunden" ;
+        <https://schema.org/targetName>
+                "4 SWS" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://bmake.th-brandenburg.de/module/TeachingForms_AWIM>
+        a                          <https://schema.org/PropertyValue> ;
+        <https://schema.org/identifier>
+                "TeachingForms" ;
+        <https://schema.org/name>  "Lehrformen mit Präsenzzeiten in Stunden" ;
+        <https://schema.org/valueReference>
+                <https://bmake.th-brandenburg.de/module/TF2_AWIM> , <https://bmake.th-brandenburg.de/module/TF1_AWIM> .
+
+<http://orcid.org/0000-0002-2780-0222>
+        a                               <https://schema.org/Person> ;
+        <https://schema.org/affiliation>
+                <http://www.wikidata.org/entity/Q1391182> ;
+        <https://schema.org/email>      "vera.meister@th-brandenburg.de" ;
+        <https://schema.org/familyName>
+                "Meister" ;
+        <https://schema.org/givenName>  "Vera G." ;
+        <https://schema.org/honorificPrefix>
+                "Prof. Dr." ;
+        <https://schema.org/name>       "Vera G. Meister" ;
+        <https://schema.org/url>        "https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/" .
+
+<https://schema.org/Text>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Allgemeine Klasse für alle Literale eines beliebigen textuellen Datentyps."@de , "General class for all literals being of any textual Datatype."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Text"@de , "Text"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/DataType> .
+
+<https://bmake.th-brandenburg.de/module/WL1_AAIT>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "betreute Projektarbeit" , "Präsenzvorlesungen" ;
+        <https://schema.org/value>  30 , 15 .
+
+<https://schema.org/value>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird im Kontext komplexer Eigenschaften zur Spezifikation von Werten für Namenswertpaare verwendet"@de , "Used in the context of complex properties to specify values for name value pairs"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/PropertyValue> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wert"@de , "value"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Integer> .
+
+<https://schema.org/PropertyValue>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Klasse für komplexe didaktische Aspekte eines Modules, insbesondere Lehrformen und die Zusammensetzung der Workload"@de , "Class for compound didactic aspects of a course, mainly teaching forms and workload components."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Merkmalswert"@de , "Property Value"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/Intangible> .
+
+<https://www.linkedin.com/in/alkuebler>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Al Kuebler" ;
+        <https://schema.org/familyName>
+                "Kuebler" ;
+        <https://schema.org/givenName>  "Al" ;
+        <https://schema.org/honorificPrefix>
+                "" .
+
+<https://bmake.th-brandenburg.de/module/WL1_GPMO>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Präsenzvorlesungen" ;
+        <https://schema.org/value>  30 .
+
+<https://www.isbn-international.org/978-3-446-43893-4>
+        a                               <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Rupp: Requirements-Engineering & Mgt." ;
+        <https://schema.org/author>     <https://www.xing.com/profile/Chris_Rupp> ;
+        <https://schema.org/bookEdition>
+                "6" ;
+        <https://schema.org/datePublished>
+                "2014" ;
+        <https://schema.org/headline>   "Requirements-Engineering und -Management" ;
+        <https://schema.org/publisher>  <https://www.sophist.de> ;
+        <https://schema.org/url>        "https://www.sophist.de/re6/" .
+
+<https://schema.org/legalName>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um die offizielle Bezeichnung einer Organisation zu erklären"@de , "is used to specify an official name of an organization"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Organization> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "offizielle Bezeichnung"@de , "legal name"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://bmake.th-brandenburg.de/module/Content_PMSK>
+        a                          <https://schema.org/ItemList> ;
+        <https://schema.org/identifier>
+                "Content" ;
+        <https://schema.org/itemListElement>
+                "14. Lern- und Arbeitstechniken (Teil I), Lerntechniken , Zeitmanagement" , "3.  Instrumente: Erhebungstechniken, Methoden zur Aufwandsschätzung, Kreativtechniken, Pflichtenhefte, Umgang mit Projektrisiken, Planungstechniken (Phasenplanung, Netzplantechnik)" , "11. Bewerbungstraining (Teil I): Lebenslaufanalysen, Arbeitszeugnisse" , "10. Personalentwicklung: Anforderungsprofile, Assessment – Center, Multimodale Personalauswahl" , "7. Kooperation in Unternehmen, Teamentwicklung, Was ist ein Team?, Strukturen , Problematik, Auswahl und Einsatz von Teams etc." , "13. Soziale Kompetenzen im virtuellen Raum, Online-Kommunikation im Vergleich zu Präsenzkommunikation, Vergleichsanalysen" , "6. Grundlagen der Kommunikation, TZI, TA – Analyse, 4-Seiten-Modell, Gesprächsführung" , "1. Grundlagen des Projektmanagements" , "2.  Spezifisches Management von Software-Projekten" , "12. Bewerbungstraining (Teil II): E-Mail/Online- u. Multimedia – Bewerbungen, Bewerbungsgespräche" , "8. Teamtraining: Gruppendynamik, Rollenverhalten , erfolgreiches Teamverhalten" , "15. Lern- und Arbeitstechniken (Teil II), Arbeitsorganisation, Stressbewältigung" , "Management von Software-Projekten, im Einzelnen:" , "9. Persönliches Auftreten: Situationsadäquates Auftreten (Benehmen, Kleidung, Körpersprache, Rhetorik..)" , "Grundlagen sozialer Kompetenzen, im Einzelnen:" , "5. Soziologische/psychologische Grundlagen, Habitus, Selbstbild/Fremdbild, individuelle Wahrnehmung, Eisbergmodell, Bedürfnisse, Werte etc." , "4. Qualitätsmanagement (Grundlagen, Produktqualität, Prozessqualität, Methoden, Qualitätspolitik, Testen von Programmen, Testobjekte und Ziele in den verschiedenen Projektphasen)" ;
+        <https://schema.org/name>  "Inhalt PMSK" .
+
+<https://schema.org/alignmentType>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um die Ausrichtung eines Moduls an Rahmenvorgaben darzustellen, insbesonder Prüfungsordnungen, Bewertungsrahmen, Modultypen (Pflicht, Wahlpflicht), Kapazitätsrahmen (SWS)"@de , "type of alignment between an alignment object and a course"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/AlignmentObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ausrichtungstyp"@de , "aligmentType"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://www.linkedin.com/in/bruce-silver-6a3859>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bruce Silver" ;
+        <https://schema.org/familyName>
+                "Silver" ;
+        <https://schema.org/givenName>  "Bruce" .
+
+<https://bmake.th-brandenburg.de/module/eduAlignm_Grade>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um auf die Notengewichtung eines Moduls im Rahmen eines Studiengangs zu verweisen"@de , "is used to reference the grade weighting of a module within a study program"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://bmake.th-brandenburg.de/module/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Notengewichtung"@de , "grade weighting"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+                <https://schema.org/educationalAlignment> .
+
+<https://bmake.th-brandenburg.de/module/WL2_SYSA>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Selbststudium" ;
+        <https://schema.org/value>  90 .
+
+<https://www.isbn-international.org/1502789647>
+        a                              <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Debevoise/Taylor: Micro-Guide Process & Decision Modeling" ;
+        <https://schema.org/author>    <http://www.tomdebevoise.com> , <https://www.linkedin.com/in/jamestaylor> ;
+        <https://schema.org/bookEdition>
+                "" ;
+        <https://schema.org/datePublished>
+                "2014" ;
+        <https://schema.org/headline>  "The Micro-Guide to Process and Decision Modeling in BPMN/DMN" ;
+        <https://schema.org/url>       "http://www.decisionmanagementsolutions.com/wp-content/uploads/2014/11/MicroGuide-to-BPMN-and-DMN-Sampler.pdf" .
+
+<https://bmake.th-brandenburg.de/module/WL2_GPMO>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Präsenzübungen" ;
+        <https://schema.org/value>  30 .
+
+<https://schema.org/url>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "allgemeines Attribut zur eindeutigen Referenz bzw. zur Bereitstellung weiterführender Informationen zu einer Ressource"@de , "General datatype property, potentially usable for specifying the URL of a resource. "@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "url"@en , "URL"@de ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/URL> .
+
+<https://bmake.th-brandenburg.de/module/Author>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Klasse für Personen, die Autoren der zitierten Werke sind"@de , "Class for person beeing author of cited creative work."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://bmake.th-brandenburg.de/module/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Autor"@de , "Author"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/Person> .
+
+<https://schema.org/Date>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Allgemeine Klasse für alle Literale die ein Datum angeben."@de , "General class for all literals indicating a data."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Datum"@de , "Date"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/DataType> .
+
+<https://bmake.th-brandenburg.de/module/eduAlignm_Curr>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um auf die Zuordnung eines Moduls zum Curriculum zu verweisen"@de , "is used to reference the assignment of a module to the overall curriculum"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://bmake.th-brandenburg.de/module/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Zuordnung zum Curriculum"@de , "assignment to curriculum"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+                <https://schema.org/educationalAlignment> .
+
+<https://www.sophist.de>
+        a                               <https://schema.org/Organization> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "SOPHIST Group" ;
+        <https://schema.org/legalName>  "SOPHIST Group GmbH" ;
+        <https://schema.org/url>        "https://www.sophist.de" .
+
+<https://www.isbn-international.org/978-3642354458>
+        a                               <https://schema.org/Book> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Rupp: Systemanalyse" ;
+        <https://schema.org/author>     <https://www.xing.com/profile/Chris_Rupp> ;
+        <https://schema.org/bookEdition>
+                "2. Auflage" ;
+        <https://schema.org/datePublished>
+                "2008" ;
+        <https://schema.org/headline>   "Systemanalyse kompakt" ;
+        <https://schema.org/publisher>  <https://www.sophist.de> ;
+        <https://schema.org/url>        "https://www.sophist.de/publikationen/systemanalyse-kompakt/" .
+
+<https://www.researchgate.net/profile/Marten_Schoenherr>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Marten Schönherr" ;
+        <https://schema.org/familyName>
+                "Schönherr" ;
+        <https://schema.org/givenName>  "Marten" ;
+        <https://schema.org/honorificPrefix>
+                "Dr.-Ing. habil." .
+
+<https://bmake.th-brandenburg.de/module/WIB_PMSK>
+        a                              <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Projekt-Mgt & Soziale Komp." ;
+        <https://bmake.th-brandenburg.de/module/about_Content>
+                <https://bmake.th-brandenburg.de/module/Content_PMSK> ;
+        <https://bmake.th-brandenburg.de/module/about_Exam>
+                <https://bmake.th-brandenburg.de/module/Exam_PMSK> ;
+        <https://bmake.th-brandenburg.de/module/about_LResults>
+                <https://bmake.th-brandenburg.de/module/LResults_PMSK> ;
+        <https://bmake.th-brandenburg.de/module/addProp_CompWL>
+                <https://bmake.th-brandenburg.de/module/CompWL_PMSK> ;
+        <https://bmake.th-brandenburg.de/module/addProp_TeachingForms>
+                <https://bmake.th-brandenburg.de/module/TeachingForms_PMSK> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_Curr>
+                <https://bmake.th-brandenburg.de/module/Curr_WIB_PMSK> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_Grade>
+                <https://bmake.th-brandenburg.de/module/Grade_WIB_PMSK> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_ModuleType>
+                <https://bmake.th-brandenburg.de/module/ModuleType_WIB_PMSK> ;
+        <https://bmake.th-brandenburg.de/module/eduAlignm_SWS>
+                <https://bmake.th-brandenburg.de/module/SWS_WIB_PMSK> ;
+        <https://schema.org/PMSK>      "PMSK" ;
+        <https://schema.org/accountablePerson>
+                <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/andreas-johannsen> ;
+        <https://schema.org/citation>  <https://www.isbn-international.org/3763229892> , <https://www.isbn-international.org/978-3-8274-1161-7> , <https://www.isbn-international.org/978-38974949303> , <https://www.isbn-international.org/978-3499174896> , <https://www.isbn-international.org/978-3-86490-429-5> , <http://doi.org/10.1007/978-3-322-82334-2k> , <https://www.dimap.ufrn.br/~jair/ES/artigos/SpiralModelBoehm.pdf> ;
+        <https://schema.org/comment>   "Assessment-Center (Videoanalyse), Fallbeispiele aus der Unternehmenspraxis, Möglichkeit des Erwerbs des Zertifikats „Certified Professional in Project Management“ des ASQF/ISQI durch freiwillige Teilnahme an einer zusätzlichen einwöchigen Blockveranstaltung." ;
+        <https://schema.org/coursePrerequisites>
+                "keine" ;
+        <https://schema.org/datePublished>
+                "2018-06-01" ;
+        <https://schema.org/educationalCredentialAwarded>
+                "5" ;
+        <https://schema.org/educationalUse>
+                "Dient der Vorbereitung darauf aufbauender Veranstaltungen." ;
+        <https://schema.org/hasCourseInstance>
+                <https://bmake.th-brandenburg.de/module/Wi18_PMSK> ;
+        <https://schema.org/inLanguage>
+                "de" , "en" ;
+        <https://schema.org/interactivityType>
+                "Vorlesung mit gemischten Medien (Folien, Tafelarbeit, Demos)" , "Begleitende Übungen mit Assessment Center (Videoaufzeichnungen und -Auswertungen in der Gruppe)" , "Präsentationen" , "Hausarbeit" , "Gruppenarbeit" ;
+        <https://schema.org/learningResourceType>
+                "Vorlesung" , "Übung" ;
+        <https://schema.org/name>      "Project Management and Social Competences"@en , "Projektmanagement und Soziale Kompetenzen"@de ;
+        <https://schema.org/timeRequired>
+                "PT150H" ;
+        <https://schema.org/url>       "https://wirtschaft.th-brandenburg.de/studium/plaene-und-termine/vorlesungsverzeichnis/vorlesungsverzeichnis-wi-bachelor/projektmanagement-und-soziale-kompetenzen/" .
+
+<https://bmake.th-brandenburg.de/module/WIB_SWEN>
+        a                          <https://schema.org/Course> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "SW-Engineering" ;
+        <https://schema.org/courseCode>
+                "SWEN" ;
+        <https://schema.org/name>  "Software Engineering"@en , "Software Engineering"@de ;
+        <https://schema.org/url>   "https://wirtschaft.th-brandenburg.de/studium/plaene-und-termine/vorlesungsverzeichnis/vorlesungsverzeichnis-wi-bachelor/software-engineering/" .
+
+<http://purl.org/vocommons/voaf#Vocabulary>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Vocabulary" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/CreativeWork> .
+
+<https://resources.sei.cmu.edu/library/author.cfm?authorID=4601>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Brian P. Gallagher" ;
+        <https://schema.org/familyName>
+                "Gallagher" ;
+        <https://schema.org/givenName>  "Brian P." ;
+        <https://schema.org/honorificPrefix>
+                "" .
+
+<https://schema.org/DataType>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Oberklasse für grundlegende Datentypen für Literale"@de , "Encompasses basic data types for typing literals."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Datentyp"@de , "Data Type"@en .
+
+<https://www.dimap.ufrn.br/~jair/ES/artigos/SpiralModelBoehm.pdf>
+        a                               <https://schema.org/Article> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Boehm: Spiral Model" ;
+        <https://schema.org/author>     <http://www.wikidata.org/entity/Q92815> ;
+        <https://schema.org/datePublished>
+                "1988" ;
+        <https://schema.org/headline>   "A spiral model of software development and enhancement" ;
+        <https://schema.org/isPartOf>   <https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6> ;
+        <https://schema.org/pageEnd>    "72" ;
+        <https://schema.org/pageStart>  "61" ;
+        <https://schema.org/url>        "https://www.dimap.ufrn.br/~jair/ES/artigos/SpiralModelBoehm.pdf" .
+
+<https://schema.org/timeRequired>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "gibt die Gesamtworkload bzw. die Workload verschiedener Arten von Lehr-Lernaktivitäten in Stunden an"@de , "time required for accomplishing a learning activity as part of the course."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/CreativeWork> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Gesamtworkload und ihre Zusammensetzung"@de , "time required"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Duration> .
+
+<http://www.tomdebevoise.com/>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tom Debevoise" ;
+        <https://schema.org/familyName>
+                "Debevoise" ;
+        <https://schema.org/givenName>  "Tom" ;
+        <https://schema.org/honorificPrefix>
+                "" .
+
+<https://schema.org/givenName>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Vorname(n) einer Person"@de , "the given name of a person"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Vorname"@de , "given name"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://schema.org/Language>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Natürliche Sprachen, wie Deutsch, Englisch, Spanisch, Hindi etc."@de , "Natural languages such as Spanish, German, Hindi, English, etc. encoded with standard code"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sprache"@de , "Language"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/Intangible> .
+
+<https://schema.org/familyName>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Nach- oder Familienname einer Person"@de , "the family name of a person"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Nachname"@de , "family name"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://bmake.th-brandenburg.de/module/LResults_AWIM>
+        a                          <https://schema.org/ItemList> ;
+        <https://schema.org/identifier>
+                "Results" ;
+        <https://schema.org/itemListElement>
+                "Die Studierenden entwickeln und gestalten eine webbasierte Präsentations- und Dokumentationsplattform für die fachlichen Modelle in ihrer Wissensdomäne." , "Die Studierenden definieren und analysieren eine abgegrenzte individuelle Wissensdomäne aus ihrem persönlichen (professionellen) Erfahrungsraum und erstellen einen Komplex fachlicher Modelle unter Verwendung von Standardnotationen." , "Die Studierenden kennen die relevanten Standards der OMG und des W3C für die Modellierung fachlichen Wissens: BPMN/CMMN/DMN (OMG) sowie RDF/SKOS (W3C) und damit einen Satz von Brückentechnologien für die Digitalisierung von Prozessen, den IT-Support von Wissensarbeit, die Automatisierung operativer Entscheidungen, die Analyse von Big-Data-Beständen, die Implementierung künstlicher Intelligenz in fachlichen Kontexten." , "Die Studierenden erwerben Grundkompetenzen in der standardbasierten Modellierung fachlichen Wissens differenziert nach Modellierungsgegenständen: ablauforientierte und wissensorientierte Geschäftsprozesse, fachliche operative Entscheidungen, fachliche Vokabulare und Thesauri, fachliche Strukturen und Relationen." ;
+        <https://schema.org/name>  "Lernergebnisse AWIM" .
+
+<https://schema.org/license>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "referenziert ein Lizensierungsdokument, das auf ein Werk anwendbar ist, meist eine URL"@de , "Relates to a license document that applies to a creative work, typically indicated by URL."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/CreativeWork> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lizenz"@de , "license"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/URL> .
+
+<https://bmake.th-brandenburg.de/module/WL1_PMSK>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Präsenz" ;
+        <https://schema.org/value>  60 .
+
+<https://schema.org/interactivityType>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "gibt eine Liste der im Modul eingesetzten Lehr- und Lernmethoden"@de , "refers to teaching and learning methods used in the course"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/CreativeWork> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lehr- und Lernmethoden"@de , "interactivity type"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://schema.org/Integer>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Klasse für alle ganzzahligen Literale."@de , "Class for all integer literals."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ganze Zahl"@de , "Integer"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <https://schema.org/DataType> .
+
+<https://bmake.th-brandenburg.de/module/ModuleType_WIB_AWIM>
+        a                               <https://schema.org/AlignmentObject> ;
+        <https://schema.org/alignmentType>
+                "Modultyp" ;
+        <https://schema.org/educationaTFramework>
+                "Studien- und Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik [Business & Information Systems Engineering B.Sc.] (SPO-BSc-WI-THB-2017) im Fachbereich Wirtschaft vom 15.02.2017, Anlage 1" ;
+        <https://schema.org/targetDescription>
+                "kann aus einer Reihe von Modulen ausgewählt werden, wird angeboten, wenn sich genügend Interessenten finden" ;
+        <https://schema.org/targetName>
+                "Wahlpflichtmodul" ;
+        <https://schema.org/targetURL>  "https://www.th-brandenburg.de/fileadmin/user_upload/hochschule/Dateien/Amtliche-Mitteilungen/2017/2017-11-SPO-BSc-WI.pdf" .
+
+<https://bmake.th-brandenburg.de/module/TF2_AAIT>
+        a                           <https://schema.org/PropertyValue> ;
+        <https://schema.org/name>   "Übung" ;
+        <https://schema.org/value>  30 .
+
+<https://schema.org/targetURL>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "The URL of a node in an established educational framework."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <https://schema.org/AlignmentObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "verweist auf eine Webseite, die nähere Informationen zum Ausrichtungsrahmen enthält, z. B. auf ein Prüfungsordnungsdokument"@de , "target URL"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/URL> .
+
+<https://bmake.th-brandenburg.de/module/TeachingForms_AAIT>
+        a                          <https://schema.org/PropertyValue> ;
+        <https://schema.org/identifier>
+                "TeachingForms" ;
+        <https://schema.org/name>  "Lehrformen mit Präsenzzeiten in Stunden" ;
+        <https://schema.org/valueReference>
+                <https://bmake.th-brandenburg.de/module/TF2_AAIT> , <https://bmake.th-brandenburg.de/module/TF1_AAIT> .
+
+<https://schema.org/name>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Wird hauptsächlich für die Modulbezeichnung verwendet; in zweiter Linie für die Bezeichnungen von kapazitätsrelevanten Lehrformen und deren Anteile an den Semesterwochenstunden (SWS)"@de , "General datatype property, potentially usable for names of all resources."@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://schema.org/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bezeichnung"@de , "name"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <https://schema.org/Text> .
+
+<https://bmake.th-brandenburg.de/module/eduAlignm_ModuleType>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um auf die Art eines Moduls zu verweisen"@de , "is used to reference the type of a module"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://bmake.th-brandenburg.de/module/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Art des Moduls"@de , "module type"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+                <https://schema.org/educationalAlignment> .
+
+<https://bmake.th-brandenburg.de/module/So18_AWIM>
+        a                              <https://schema.org/CourseInstance> ;
+        <https://schema.org/courseMode>
+                "jedes Winter/Sommersemester" ;
+        <https://schema.org/duration>  "P0.5Y" ;
+        <https://schema.org/identifier>
+                "AWIM SoSe18/19" ;
+        <https://schema.org/instructor>
+                <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister> .
+
+<https://www.xing.com/profile/Chris_Rupp>
+        a                               <https://bmake.th-brandenburg.de/module/Author> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Chris Rupp" ;
+        <https://schema.org/familyName>
+                "Rupp" ;
+        <https://schema.org/givenName>  "Chris" ;
+        <https://schema.org/honorificPrefix>
+                "Dipl.-Inf." .
+
+<https://bmake.th-brandenburg.de/module/Wi18_SYSA>
+        a                              <https://schema.org/CourseInstance> ;
+        <https://schema.org/courseMode>
+                "jedes Wintersemester" ;
+        <https://schema.org/duration>  "P0.5Y" ;
+        <https://schema.org/identifier>
+                "SYSA WiSe18/19" ;
+        <https://schema.org/instructor>
+                <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/dietmar-wikarski> .
+
+<https://bmake.th-brandenburg.de/module/Wi18_AAIT>
+        a                              <https://schema.org/CourseInstance> ;
+        <https://schema.org/courseMode>
+                "jedes Wintersemester" ;
+        <https://schema.org/duration>  "P0.5Y" ;
+        <https://schema.org/identifier>
+                "AAIT WiSe18/19" ;
+        <https://schema.org/instructor>
+                <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister> .
+
+<https://bmake.th-brandenburg.de/module/addProp_TeachingForms>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "wird verwendet, um auf die Liste von Lehr-/Lernformen eines Moduls zu referenzieren"@de , "is used to reference a list of teaching forms for a module"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+                <https://bmake.th-brandenburg.de/module/> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lehr-/Lernformen"@de , "teaching forms"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+                <https://schema.org/additionalProperty> .

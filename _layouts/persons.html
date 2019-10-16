@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Modulübersicht">
+    <meta name="author" content="Team1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Modulkatalog - Technische Hochschule Brandenburg</title>
+
+     <!-- Bootstrap  CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawesome Icons --> 
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Schriftarten für das Template -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- CSS für dieses Template -->
+    <link href="../css/style.css" rel="stylesheet">
+
+  </head>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="/module">Modulkatalog THB</a>
+      </div>
+    </nav>
+<br><br>
+<br><br>
+
+<section id="module">
+      <div class="container">
+        <h4 class="text-center text-uppercase text-secondary mb-0">Dozenten der THB</h4>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+ 
+
+ <table class="table" id="myTable">
+  <thead>
+    <tr>
+      <th class="table" scope="col">Dozenten</th>
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Nach Dozenten suchen..." title="Einen Namen eingeben">
+       </tr>
+  </thead>
+  <tbody>
+
+
+<!-- Hier der alte Query der für Dozenten angepasst werden muss
+	
+    {% assign query = 'SELECT DISTINCT ?course WHERE { ?course a <https://schema.org/Course> . } ' %}
+    {% assign resultset = page.rdf | sparql_query: query %}
+      {% for result in resultset %}
+	  <tr><td><a href="{{ result.course | remove: 'https://bmake.th-brandenburg.de' }}.html">{{ result.course | rdf_property: '<http://www.w3.org/2000/01/rdf-schema#label>' }}</a></td></tr>
+	  {% endfor %}
+
+  -->
+	
+  </tbody>
+</table>
+</div>
+        </div>
+      </div>
+    </section>
+
+ 
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Copyright &copy; WIM EKGI @ THB - Team 1</small>
+      </div>
+    </div>
+
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+  </body>
+
+</html>
+
+ 

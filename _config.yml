@@ -1,0 +1,14 @@
+baseurl: ""
+url: "https://bmake.th-brandenburg.de/module/"
+
+plugins:
+   - jekyll-rdf
+
+jekyll_rdf:
+   path: "_data/graph.ttl"
+   default_template: "default"
+   restriction: "SELECT ?resourceUri WHERE { { ?resourceUri a <https://schema.org/Course> . } UNION  { ?resourceUri a <https://schema.org/WebPage> } UNION { ?resourceUri a <https://bmake.th-brandenburg.de/module/Lecturer>.}}"
+   class_template_mappings:
+       "https://schema.org/WebPage": "index.html"
+       "https://schema.org/Course": "course.html"
+       "https://bmake.th-brandenburg.de/module/Lecturer": "person.html"
